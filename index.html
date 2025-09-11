@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of ABDELRAHMAN HAMOUDA, a Full-Stack Developer and IT Specialist based in Port Said, Egypt.">
+    <meta name="keywords"
+        content="Full-Stack Developer, IT Specialist, Web Developer, ASP.NET, Angular, C#, Azure, ABDELRAHMAN HAMOUDA, PORTFOLIO">
+    <meta property="og:title" content="ABDELRAHMAN HAMOUDA-PORTFOLIO">
+    <meta property="og:description"
+        content="Explore the projects and skills of ABDELRAHMAN HAMOUDA, a passionate developer and IT professional.">
+    <meta property="og:image" content="images/logoo.png">
+
+    <title data-key="pageTitle">ABDELRAHMAN HAMOUDA - Portfolio</title>
+    <link rel="icon" href="https://github.com/hamouda-10/PORTFOLIO-ABDELRAHMAN/blob/main/images/logoo.png?raw=true" type="image/png">
+
+
+    <link rel="stylesheet" href="./style/style.CSS">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&family=Cairo:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <div class="main-container">
+        <button id="mobile-menu-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <aside id="sidebar">
+            <div class="profile-container">
+                <div class="profile-image-wrapper">
+                    <img src="images/60.jpeg" alt="Profile Picture" loading="lazy"
+                        onerror="this.onerror=null;this.src='https://i.ibb.co/6rHM8V8/profile-pic-sidebar.png';">
+                </div>
+                <h1 class="profile-name" data-key="myName">ABDELRAHMAN HAMOUDA</h1>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/abdelrahman.hamouda.18?locale=ar_AR" aria-label="Facebook" target="_blank"><i
+                            class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="https://github.com/hamouda-10" aria-label="Github" target="_blank"><i
+                            class="fab fa-github fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/abdelrahman-hamouda-a3b609328/" aria-label="LinkedIn" target="_blank"><i
+                            class="fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="https://wa.me/201201898518" aria-label="WhatsApp" target="_blank"><i
+                            class="fab fa-whatsapp fa-lg"></i></a>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <button class="nav-btn" data-section="home"><i class="fas fa-home"></i> <span
+                        data-key="nav-home">Home</span></button>
+                <button class="nav-btn" data-section="about"><i class="fas fa-user"></i> <span
+                        data-key="nav-about">About</span></button>
+                <button class="nav-btn" data-section="skills"><i class="fas fa-cogs"></i> <span
+                        data-key="nav-skills">Skills</span></button>
+                <button class="nav-btn" data-section="certifications"><i class="fas fa-award"></i> <span
+                        data-key="nav-certifications">Certifications</span></button>
+                <button class="nav-btn" data-section="portfolio"><i class="fas fa-briefcase"></i> <span
+                        data-key="nav-portfolio">Projects</span></button>
+                <button class="nav-btn" data-section="cvs"><i class="fas fa-file-alt"></i><span
+                        data-key="nav-cvs">Resume</span></button>
+                <button class="nav-btn" data-section="contact"><i class="fas fa-envelope"></i> <span
+                        data-key="nav-contact">Contact</span></button>
+            </nav>
+
+            <footer class="sidebar-footer">
+                <button id="lang-toggle" aria-label="Toggle language"><span
+                        data-key="lang-toggle-text">AR</span></button>
+            </footer>
+
+
+            <div class="copyright">
+                <span data-key="copyright-line1">© 2025 Copyright Portfolio</span> <br>
+                <span data-key="designed-by-text">Developed & Designed by</span> <span data-key="myName">ABDELRAHMAN HAMOUDA</span>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <div class="main-content-overlay"></div>
+            <div class="person-photo"></div>
+
+            <section id="home">
+                <div class="home-content">
+                    <h1 class="home-title" data-key="myName">ABDELRAHMAN HAMOUDA</h1>
+                    <p class="home-subtitle"><span data-key="home-prefix"></span> <span id="typing-text"
+                            class="typing-text"></span><span class="typing-cursor">|</span></p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="about-heading">About Me</h2>
+                    <h3 class="about-subtitle" data-key="about-subtitle">Software Engineer | Frontend Developer / UI & UX Designer | Backend (Laravel)
+</h3>
+                    <div class="about-grid scroll-animation">
+                        <div>
+                            <p class="about-description" data-key="about-desc">A results-driven professional with a
+                                multidisciplinary background in Full-Stack Web Development, IT infrastructure
+                                management, and Photoshop design. I specialize in developing responsive, user-focused
+                                web applications and maintaining secure, high-performance IT environments—including
+                                server deployment, system administration, and network security. With an eye for design
+                                and a passion for seamless digital experiences, I combine technical expertise with
+                                creative insight to deliver reliable, efficient, and visually compelling solutions.</p>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-details-item"><i class="fas fa-map-marker-alt"></i>
+                                <div><strong data-key="about-city-label">City:</strong> <span data-key="about-city">Banha
+                                        , Egypt</span></div>
+                            </div>
+                            <div class="about-details-item"><i class="fas fa-envelope"></i>
+                                <div><strong data-key="about-email-label">Email:</strong> <span
+                                        data-key="email-address">hamoudaabdo689@gmail.com</span></div>
+                            </div>
+                            <div class="about-details-item"><i class="fas fa-phone"></i>
+                                <div><strong data-key="about-phone-label">Phone:</strong> <span
+                                        data-key="phone-number">+201201898518</span></div>
+                            </div>
+                            <div class="about-details-item"><i class="fas fa-flag"></i>
+                                <div><strong data-key="about-military-label">Military Service:</strong> <span
+                                        data-key="military-status">Exempted</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="skills-heading">My Skills</h2>
+                    <div class="skills-categories-container">
+                        <div class="scroll-animation">
+                            <h3 class="category-title" data-key="skills-cat-frontend">Frontend Development</h3>
+                            <div class="skills-grid">
+                                <div class="skill-card"><i class="fab fa-html5"></i>
+                                    <h4 data-key="skill-html">HTML5</h4>
+                                </div>
+                                <div class="skill-card"><i class="fab fa-css3-alt"></i>
+                                    <h4 data-key="skill-css">CSS3</h4>
+                                </div>
+                                <div class="skill-card"><i class="fab fa-js-square"></i>
+                                    <h4 data-key="skill-js">JavaScript</h4>
+                                </div>
+                                <div class="skill-card">
+                                    <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="50" height="50" rx="6" fill="#DAA520" />
+                                        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+                                            font-family="Alegreya, serif" font-weight="bold" font-size="24"
+                                            fill="#171a1f">TS</text>
+                                    </svg>
+                                    <h4 data-key="skill-ts">TypeScript</h4>
+                                </div>
+                              <div class="skill-card">
+    <i class="fab fa-react"></i>
+    <h4 data-key="skill-react">React</h4>
+</div>
+
+                                <div class="skill-card"><i class="fab fa-bootstrap"></i>
+                                    <h4 data-key="skill-bootstrap">Bootstrap</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll-animation">
+                            <h3 class="category-title" data-key="skills-cat-backend">Backend Development</h3>
+                            <div class="skills-grid">
+                              <!-- PHP -->
+<div class="skill-card">
+    <svg width="82.5" height="70" viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,5 90,25 90,75 50,95 10,75 10,25" fill="#DAA520" />
+        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+            font-family="Alegreya, serif" font-weight="bold" font-size="32"
+            fill="#171a1f">PHP</text>
+    </svg>
+    <h4 data-key="skill-php">PHP</h4>
+</div>
+
+<!-- Laravel -->
+<div class="skill-card">
+    <svg width="82.5" height="70" viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg">
+        <polygon points="50,5 90,25 90,75 50,95 10,75 10,25" fill="#DAA520" />
+        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+            font-family="Alegreya, serif" font-weight="bold" font-size="26"
+            fill="#171a1f">Laravel</text>
+    </svg>
+    <h4 data-key="skill-laravel">Laravel</h4>
+</div>
+
+                                <div class="skill-card">
+                                    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="60" height="60" rx="6" fill="#DAA520" />
+                                        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+                                            font-family="Alegreya, serif" font-weight="bold" font-size="24"
+                                            fill="#171a1f">OOP</text>
+                                    </svg>
+
+                                    <h4 data-key="skill-oop">OOP</h4>
+                                </div>
+                              
+                                <div class="skill-card"><i class="fas fa-database"></i>
+                                    <h4 data-key="skill-sql">MS SQL Server</h4>
+                                </div>
+                                <div class="skill-card">
+                                    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 100 100">
+                                        <rect width="100" height="100" rx="12" ry="12" fill="#DAA520" />
+                                        <text x="50%" y="47%" text-anchor="middle" font-family="Alegreya, serif"
+                                            font-size="33" font-weight="bold" fill="#171a1f">EF</text>
+                                        <text x="50%" y="80%" text-anchor="middle" font-family="Alegreya, serif"
+                                            font-size="35" font-weight="600" fill="#171a1f">Core</text>
+                                    </svg>
+
+                                    <h4 data-key="skill-efcore">Entity Framework</h4>
+                                </div>
+                                <div class="skill-card">
+                                    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 100 100">
+                                        <rect width="100" height="100" rx="12" ry="12" fill="#DAA520" />
+                                        <text x="50%" y="65%" text-anchor="middle" font-family="Alegreya, serif"
+                                            font-size="35" font-weight="bold" fill="#171a1f">API</text>
+                                    </svg>
+                                    <h4 data-key="skill-api">API</h4>
+                                </div>
+                            </div>
+                        </div>
+                    
+                       <div class="scroll-animation">
+    <h3 class="category-title" data-key="skills-cat-cloud">Cloud & Version Control</h3>
+    <div class="skills-grid">
+        <!-- Microsoft Azure -->
+        <!-- Git/GitHub -->
+        <div class="skill-card">
+            <i class="fab fa-git-alt"></i>
+            <h4 data-key="skill-git">Git/GitHub</h4>
+        </div>
+        <!-- Dropbox -->
+<div class="skill-card">
+    <i class="fab fa-dropbox"></i>
+    <h4 data-key="skill-dropbox">Dropbox</h4>
+</div>
+
+        <div class="skill-card">
+            <i class="fas fa-cloud"></i>
+            <h4 data-key="skill-azure">Microsoft Azure</h4>
+        </div>
+        <!-- AWS -->
+        <div class="skill-card">
+            <i class="fab fa-aws"></i>
+            <h4 data-key="skill-aws">AWS</h4>
+        </div>
+        <!-- Google Cloud -->
+        <div class="skill-card">
+            <i class="fab fa-google"></i>
+            <h4 data-key="skill-gcp">Google Cloud</h4>
+        </div>
+        <!-- Docker -->
+        <div class="skill-card">
+            <i class="fab fa-docker"></i>
+            <h4 data-key="skill-docker">Docker</h4>
+        </div>
+    </div>
+</div>
+
+                       <div class="scroll-animation">
+    <h3 class="category-title" data-key="skills-cat-design">Design</h3>
+    <div class="skills-grid">
+        <!-- Adobe Photoshop -->
+        <div class="skill-card">
+            <div class="logo-container">
+                <svg viewBox="0 0 256 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FFD700" />
+                            <stop offset="100%" stop-color="#B8860B" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="256" height="256" rx="40" ry="40" fill="transparent" />
+                    <text text-anchor="middle" x="128" y="80" font-family="Alegreya, serif"
+                        font-weight="bold" font-size="70" fill="url(#goldGradient)">
+                        Ps
+                    </text>
+                </svg>
+            </div>
+            <h4 data-key="skill-photoshop">Adobe Photoshop</h4>
+        </div>
+
+        <!-- Canva -->
+        <div class="skill-card">
+            <div class="logo-container">
+                <svg viewBox="0 0 256 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FFD700" />
+                            <stop offset="100%" stop-color="#B8860B" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="256" height="256" rx="40" ry="40" fill="transparent" />
+                    <text text-anchor="middle" x="128" y="80" font-family="Alegreya, serif"
+                        font-weight="bold" font-size="55" fill="url(#goldGradient)">
+                        Canva
+                    </text>
+                </svg>
+            </div>
+            <h4 data-key="skill-canva">Canva</h4>
+        </div>
+
+        <!-- PicsArt -->
+        <div class="skill-card">
+            <div class="logo-container">
+                <svg viewBox="0 0 256 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#FFD700" />
+                            <stop offset="100%" stop-color="#B8860B" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="256" height="256" rx="40" ry="40" fill="transparent" />
+                    <text text-anchor="middle" x="128" y="80" font-family="Alegreya, serif"
+                        font-weight="bold" font-size="48" fill="url(#goldGradient)">
+                        PicsArt
+                    </text>
+                </svg>
+            </div>
+            <h4 data-key="skill-picsart">PicsArt</h4>
+        </div>
+    </div>
+</div>
+
+                    <div class="scroll-animation">
+    <h3 class="category-title" data-key="skills-cat-office">Office Suite</h3>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fas fa-file-word"></i>
+            <h4 data-key="skill-word">Microsoft Word</h4>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-file-excel"></i>
+            <h4 data-key="skill-excel">Microsoft Excel</h4>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-file-powerpoint"></i>
+            <h4 data-key="skill-ppt">Microsoft PowerPoint</h4>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h4 data-key="skill-access">Microsoft Access</h4>
+        </div>
+        <!-- Microsoft Outlook -->
+        <div class="skill-card">
+            <i class="fas fa-envelope"></i>
+            <h4 data-key="skill-outlook">Microsoft Outlook</h4>
+        </div>
+        <!-- Microsoft OneNote -->
+        <div class="skill-card">
+            <i class="fas fa-sticky-note"></i>
+            <h4 data-key="skill-onenote">Microsoft OneNote</h4>
+        </div>
+    </div>
+</div>
+
+                        
+       <div class="scroll-animation">
+    <h3 class="category-title" data-key="skills-cat-soft">Soft Skills</h3>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fas fa-users"></i>
+            <h4 data-key="skill-teamlead">Team Leadership</h4>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-hands-helping"></i>
+            <h4 data-key="skill-volunteer">Volunteering</h4>
+        </div>
+        <!-- Communication -->
+        <div class="skill-card">
+            <i class="fas fa-comments"></i>
+            <h4 data-key="skill-communication">Communication</h4>
+        </div>
+        <!-- Problem Solving -->
+        <div class="skill-card">
+            <i class="fas fa-lightbulb"></i>
+            <h4 data-key="skill-problem">Problem Solving</h4>
+        </div>
+        <!-- Creativity -->
+        <div class="skill-card">
+            <i class="fas fa-paint-brush"></i>
+            <h4 data-key="skill-creativity">Creativity</h4>
+        </div>
+        <!-- Adaptability -->
+        <div class="skill-card">
+            <i class="fas fa-sync-alt"></i>
+            <h4 data-key="skill-adaptability">Adaptability</h4>
+        </div>
+          <!-- Time Management -->
+        <div class="skill-card">
+            <i class="fas fa-clock"></i>
+            <h4 data-key="skill-time">Time Management</h4>
+        </div>
+        <!-- Critical Thinking -->
+        <div class="skill-card">
+            <i class="fas fa-brain"></i>
+            <h4 data-key="skill-critical">Critical Thinking</h4>
+        </div>
+    </div>
+</div>
+
+
+            </section>
+
+            <section id="certifications">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="nav-certifications">Certifications</h2>
+                    <div class="cert-grid scroll-animation"></div>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="nav-portfolio">Portfolio</h2>
+                    <div class="portfolio-filters scroll-animation">
+                        <button class="filter-btn active" data-filter="websites"
+                            data-key="portfolio-websites">Websites</button>
+                      
+                    </div>
+                    <div class="portfolio-grid"></div>
+                </div>
+            </section>
+            <section id="cvs">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="nav-cvs">Resume</h2>
+                    <div class="timeline-container scroll-animation">
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-user-tie"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp-eisas-date">Mar 2024 - Present</span>
+                                <h4 class="timeline-title" data-key="exp-eisas-title">Frontend Developer</h4>
+                                <p class="timeline-company" data-key="exp-eisas-company">Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp-gmt-date">Jan 2025 - Present</span>
+                                <h4 class="timeline-title" data-key="exp-gmt-title">Web Developer</h4>
+                                <p class="timeline-company" data-key="exp-gmt-company">Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-network-wired"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp-portegy-date">Dec 2024 - Present</span>
+                                <h4 class="timeline-title" data-key="exp-portegy-main-title">Career Progression (Part-time)</h4>
+                                <ul class="timeline-details" style="margin-top: 1rem;">
+                                    <li data-key="exp-portegy-admin"><b>Freelance Web Developer : </b> Worked as a freelancer on platforms like Freelancer, Mostaql, and Matloob .</li>
+                                    <li data-key="exp-portegy-dev"><b>Web Developer:</b> Building internal tools and
+                                        APIs.</li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-project-diagram"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp-softtech-date">Dec 2024 - Nov 2024</span>
+
+                                <h4 class="timeline-title" data-key="exp-softtech-company">Soft-Tech Company (Remote)
+                                </h4>
+                                <ul class="timeline-details">
+                                    <li data-key="exp-softtech-detail1">Translated Figma UI/UX designs for the
+                                        "Investment Portal" project.</li>
+                                    <li data-key="exp-softtech-detail2">Developed the user interface using Angular and
+                                        TypeScript.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-user-ninja"></i></div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-title" data-key="exp-freelance-title">Front-End Developer</h4>
+                                <p class="timeline-company" data-key="exp-freelance-company">Worked on React And Vanilla Code projects with a focus on responsive UI .</p>
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="edu-date">Graduated: 2027</span>
+                                <h4 class="timeline-title" data-key="edu-degree">Bachelor of Science in Computer Science and Information Technology</h4>
+                                <p class="timeline-company" data-key="edu-uni">Modern Academy Maadi (Grade : B+)</p>
+                                <ul class="timeline-details">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp4-date">Jul 2025 - Aug 2025</span>
+                                <h4 class="timeline-title" data-key="exp4-title">Intensive Code Camp (Laravel Framework using PHP Language)
+                                </h4>
+                                <p class="timeline-company" data-key="exp4-company">IT GATE ACADEMY (IGA)</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date" data-key="exp5-date">Jul 2021 - Aug 2021</span>
+                                <h4 class="timeline-title" data-key="exp5-title">Laravel Framework Summer Trainee</h4>
+                                <p class="timeline-company" data-key="exp4-company">Information Technology Institute
+                                    (ITI)</p>
+                            </div>
+                        </div>
+
+                       <div class="timeline-item">
+    <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+    <div class="timeline-content">
+        <h4 class="timeline-title">Certifications & Courses</h4>
+        <ul class="timeline-details">
+            <li><b>Associate Android Developer</b> – Google</li>
+            <li><b>Google IT Support</b> – Google | 2024</li>
+            <li><b>Fundamentals of Digital Marketing</b> – Google | 2024</li>
+            <li><b>Associate Cloud Engineer</b></li>
+            <li><b>Certified in Node.js, Nest.js, PostgreSQL, GraphQL & Security</b></li>
+            <li><b>Mastering Kali Linux for Ethical Hackers</b></li>
+            <li><b>Python Essentials 1</b> – Cisco & OpenEDG Python Institute</li>
+            <li><b>Introduction to Cybersecurity (Cisco & Udemy)</b></li>
+            <li><b>Flutter Clean Architecture Certification</b></li>
+            <li><b>Web Development Course</b></li>
+            <li><b>Professional Adobe Photoshop CC Course With Advanced Training</b></li>
+            <li><b>ICDL</b> – Maaref Academy</li>
+            <li><b>HTML Formatting Tags Techniques</b> – Mind Luster</li>
+            <li><b>Python</b> – Udemy</li>
+            <li><b>Java</b> – Udemy</li>
+            <li><b>C++</b> – Udemy</li>
+            <li><b>Intro to AI</b> – Edraak Platform</li>
+            <li><b>Graphic Design</b> – Maaref Academy</li>
+            <li><b>Logo Design</b> – Maaref Academy</li>
+            <li><b>English</b> – Maaref Academy</li>
+            <li><b>Soft Skills</b> – Mind Luster</li>
+            <li><b>Soft Skills 2</b> – Maaref Academy</li>
+            <li><b>Querying Data with Transact-SQL</b></li>
+        </ul>
+    </div>
+</div>
+
+
+                    </div>
+                    <div class="cv-download-area scroll-animation">
+                        <a href="./CV/CV ABDELRAHMAN HAMOUDA.pdf" class="btn-download" download><i
+                                class="fas fa-download"></i> <span data-key="cv-dev-download">Download CV</span></a>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-container">
+                    <h2 class="section-title scroll-animation" data-key="nav-contact">Contact</h2>
+                    <div class="contact-grid">
+                        
+                        <div class="contact-card scroll-animation"><i class="fas fa-map-marker-alt"></i>
+                            <h4 data-key="contact-location">Location</h4>
+                            <p data-key="about-city">Banha , Egypt</p>
+                        </div>
+                        <div class="contact-card scroll-animation"><i class="fas fa-envelope-open-text"></i>
+                            <h4 data-key="contact-email">Email</h4>
+                            <p><a href="hamoudaabdo689@gmail.com" data-key="email-address">hamoudaabdo689@gmail.com</a>
+                            </p>
+                         </div><style>.contact-card {
+                            background-color: rgba(31, 41, 55, 0.6);
+                            border: 1px solid var(--border);
+                            border-radius: 12px;
+                            padding: 2.5rem;
+                            transition: var(--transition-medium);
+                            text-align: center; 
+                            display: flex;
+                            flex-direction: column; 
+                            align-items: center; 
+                            justify-content: center; 
+                        }
+
+                        .contact-card i {
+                            font-size: 2.5rem;
+                            margin-bottom: 1.25rem;
+                        }
+
+                        .contact-card h4 {
+                            font-size: 1.4rem;
+                            color: var(--text-primary);
+                            margin-bottom: 0.5rem;
+                        }
+
+                        .contact-card p a {
+                            color: var(--text-primary);
+                            text-decoration: none;
+                            word-break: break-all; 
+                        }
+                        .contact-card p a:hover {
+                            color: var(--gold-default);
+                        }
+                        </style>
+                        <div class="contact-card scroll-animation"><i class="fas fa-phone-alt"></i>
+                            <h4 data-key="contact-phone">Phone</h4>
+                            <p><a href="tel:+201201898518" data-key="phone-number">01201898518</a></p>
+                        </div>
+
+                        <div class="contact-card scroll-animation"><i class="fab fa-whatsapp"></i>
+                            <h4 data-key="contact-whatsapp">WhatsApp</h4>
+                            <p><a href="https://wa.me/201201898518" target="_blank" data-key="phone-number">01201898518</a></p>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="scroll-animation" style="margin: 3rem auto 0;">
+                        <div class="contact-form-grid">
+                            <input type="text" name="name" placeholder="Your Name" data-key="form-name"
+                                class="form-input" required>
+                            <input type="email" name="email" placeholder="Your Email" data-key="form-email"
+                                class="form-input" required>
+                        </div>
+                        <textarea name="message" rows="5" placeholder="Your Message" data-key="form-message"
+                            class="form-input" required style="margin-top: 1.5rem;"></textarea>
+                        <button type="submit" class="btn-submit" data-key="form-submit" style="margin-top: 1.5rem;">Send
+                            Message</button>
+                        <div id="form-status" style="text-align: center; margin-top: 1rem;"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+
+
+        <div id="viewer-modal" class="modal-overlay">
+            <button id="modal-closer" class="modal-close" aria-label="Close">&times;</button>
+            <div id="pdf-viewer-container">
+                <div id="pdf-loader" class="loader-spinner"></div>
+
+                <div id="pdf-controls">
+                    <button id="prev-page" class="pdf-ctrl-btn" title="Previous Page"><i
+                            class="fas fa-arrow-left"></i></button>
+                    <div class="page-info">
+                        <span data-key="pdf-page-label">Page</span>
+                        <span id="page-num"></span> / <span id="page-count"></span>
+                    </div>
+                    <button id="next-page" class="pdf-ctrl-btn" title="Next Page"><i
+                            class="fas fa-arrow-right"></i></button>
+                    <button id="zoom-out" class="pdf-ctrl-btn" title="Zoom Out"><i
+                            class="fas fa-search-minus"></i></button>
+                    <button id="zoom-in" class="pdf-ctrl-btn" title="Zoom In"><i
+                            class="fas fa-search-plus"></i></button>
+                    <a id="download-pdf" class="pdf-ctrl-btn" download title="Download PDF"><i
+                            class="fas fa-download"></i></a>
+                </div>
+
+                <div id="pdf-render-area">
+                    <canvas id="pdf-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW: Image Gallery Modal -->
+        <div id="image-gallery-modal" class="modal-overlay">
+            <button id="gallery-modal-closer" class="modal-close" aria-label="Close">&times;</button>
+            <div id="image-gallery-container">
+                <button id="gallery-prev-btn" class="gallery-nav-btn prev" aria-label="Previous Image"><i
+                        class="fas fa-chevron-left"></i></button>
+                <div class="gallery-image-wrapper">
+                    <img id="gallery-image" src="" alt="Design Image">
+                </div>
+                <button id="gallery-next-btn" class="gallery-nav-btn next" aria-label="Next Image"><i
+                        class="fas fa-chevron-right"></i></button>
+            </div>
+            <div id="gallery-counter"></div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+        <script src="./Scripts/script.js"></script>
+</body>
+
+</html>
