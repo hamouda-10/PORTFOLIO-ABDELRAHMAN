@@ -72,18 +72,29 @@ const certificationsData = [
     { id: 'cert16', titleKey: 'cert16-title', issuer: 'MINDLUSTER', logo: 'images/Certificates/MINDLUSTER.png', verifyUrl: './Certificates/MINDLUSTER1.pdf' },
 ];
 
-  const portfolioData = [
-// Featured Projects
-{ category: 'websites', titleKey: 'p1-title', image: 'images/Websites/meetmind.png', liveUrl: '[https://meetmind-atlas.lovable.app/](https://meetmind-atlas.lovable.app/)', repoUrl: 'https\://github.com/hamouda-10/meetmind-atlas' },
-{ category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: '[https://el-mokna.ai.studio/](https://el-mokna.ai.studio/)', repoUrl: 'https\://github.com/hamouda-10/THE-SEA' },
-{ category: 'websites', titleKey: 'p3-title', image: 'images/Websites/CAMERA.png', liveUrl: '[https://hamouda-10.github.io/camera/](https://hamouda-10.github.io/camera/)', repoUrl: 'https\://github.com/hamouda-10/camera' },
-{ category: 'websites', titleKey: 'p4-title', image: 'images/Websites/PEXELZO.png', liveUrl: '[https://pixelzo.ai.studio/](https://pixelzo.ai.studio/)', repoUrl: 'https\://github.com/hamouda-10/PEXELZO' },
-{ category: 'websites', titleKey: 'p5-title', image: 'images/Websites/CV.png', liveUrl: '[https://hamouda-10.github.io/CV-CHECKER/](https://hamouda-10.github.io/CV-CHECKER/)', repoUrl: 'https\://github.com/hamouda-10/CV-CHECKER' },
-{ category: 'websites', titleKey: 'p6-title', image: 'images/Websites/GYMFLOW\.png', liveUrl: '[https://asset-manager--sallahhoda662.replit.app/](https://asset-manager--sallahhoda662.replit.app/)', repoUrl: 'https\://github.com/hamouda-10/GymFlow-Pro' },
-{ category: 'websites', titleKey: 'p7-title', image: 'images/Websites/VIRAL CONTENT.png', liveUrl: '[https://hamouda-10.github.io/Estate-Lens/](https://hamouda-10.github.io/Estate-Lens/)', repoUrl: 'https\://github.com/hamouda-10/Estate-Lens' },
-{ category: 'websites', titleKey: 'p8-title', image: 'images/Websites/Fruit.png', liveUrl: '[https://hamouda-10.github.io/Fruit-Delivery/](https://hamouda-10.github.io/Fruit-Delivery/)', repoUrl: 'https\://github.com/hamouda-10/Fruit-Delivery' },
-{ category: 'websites', titleKey: 'p9-title', image: 'images/Websites/MADINATY.png', liveUrl: '[https://hamouda-10.github.io/1/](https://hamouda-10.github.io/1/)', repoUrl: 'https\://github.com/hamouda-10/1' },
-{ category: 'websites', titleKey: 'p10-title', image: 'images/Websites/PORTFOLIO.png', liveUrl: '[https://hamouda-10.github.io/ORANGE-PORTFOLIO/](https://hamouda-10.github.io/ORANGE-PORTFOLIO/)', repoUrl: 'https\://github.com/hamouda-10/ORANGE-PORTFOLIO-' },
+const portfolioData = [
+
+    // Featured Projects
+
+    { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/meetmind.png', liveUrl: 'https://meetmind-atlas.lovable.app/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
+
+    { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
+
+    { category: 'websites', titleKey: 'p3-title', image: 'images/Websites/CAMERA.png', liveUrl: 'https://hamouda-10.github.io/camera/', repoUrl: 'https://github.com/hamouda-10/camera' },
+
+    { category: 'websites', titleKey: 'p4-title', image: 'images/Websites/PEXELZO.png', liveUrl: 'https://pixelzo.ai.studio/', repoUrl: 'https://github.com/hamouda-10/PEXELZO' },
+
+    { category: 'websites', titleKey: 'p5-title', image: 'images/Websites/CV.png', liveUrl: 'https://hamouda-10.github.io/CV-CHECKER/', repoUrl: 'https://github.com/hamouda-10/CV-CHECKER' },
+
+    { category: 'websites', titleKey: 'p6-title', image: 'images/Websites/GYMFLOW.png', liveUrl: 'https://asset-manager--sallahhoda662.replit.app/', repoUrl: 'https://github.com/hamouda-10/GymFlow-Pro' },
+
+    { category: 'websites', titleKey: 'p7-title', image: 'images/Websites/VIRAL CONTENT.png', liveUrl: 'https://hamouda-10.github.io/Estate-Lens/', repoUrl: 'https://github.com/hamouda-10/Estate-Lens' },
+
+    { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/Fruit.png', liveUrl: 'https://hamouda-10.github.io/Fruit-Delivery/', repoUrl: 'https://github.com/hamouda-10/Fruit-Delivery' },
+
+    { category: 'websites', titleKey: 'p9-title', image: 'images/Websites/MADINATY.png', liveUrl: 'https://hamouda-10.github.io/1/', repoUrl: 'https://github.com/hamouda-10/1' },
+
+    { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/PORTFOLIO.png', liveUrl: 'https://hamouda-10.github.io/ORANGE-PORTFOLIO/', repoUrl: 'https://github.com/hamouda-10/ORANGE-PORTFOLIO-' },
 
 // Professional Websites
 { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/PRO COURSES.png', liveUrl: 'https://hamouda-10.github.io/PRO-COURSES/', repoUrl: 'https://github.com/hamouda-10/PRO-COURSES' },
