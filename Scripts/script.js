@@ -96,46 +96,89 @@ const portfolioData = [
 
     { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/PORTFOLIO.png', liveUrl: 'https://hamouda-10.github.io/ORANGE-PORTFOLIO/', repoUrl: 'https://github.com/hamouda-10/ORANGE-PORTFOLIO-' },
 
-// Professional Websites
-{ category: 'websites', titleKey: 'p11-title', image: 'images/Websites/PRO COURSES.png', liveUrl: 'https://hamouda-10.github.io/PRO-COURSES/', repoUrl: 'https://github.com/hamouda-10/PRO-COURSES' },
-{ category: 'websites', titleKey: 'p12-title', image: 'images/Websites/AMAZONE CLONE.png', liveUrl: 'https://hamouda-10.github.io/STORE-AMAZON-/', repoUrl: 'https://github.com/hamouda-10/STORE-AMAZON-' },
-{ category: 'websites', titleKey: 'p13-title', image: 'images/Websites/HEADPHONE.png', liveUrl: 'https://hamouda-10.github.io/HEADPHONES/', repoUrl: 'https://github.com/hamouda-10/HEADPHONES' },
-{ category: 'websites', titleKey: 'p14-title', image: 'images/Websites/EDUCATION PLATFORM.png', liveUrl: 'https://hamouda-10.github.io/edu-platform-elshoura/#', repoUrl: 'https://github.com/hamouda-10/edu-platform-elshoura' },
-{ category: 'websites', titleKey: 'p15-title', image: 'images/Websites/YOUTUBE CLONE.png', liveUrl: 'https://hamouda-10.github.io/YOUTUBE-CLONE/', repoUrl: 'https://github.com/hamouda-10/YOUTUBE-CLONE' },
 
-// Interactive Projects
-{ category: 'websites', titleKey: 'p16-title', image: 'images/Websites/COINSHIFT.png', liveUrl: 'https://hamouda-10.github.io/COINSHIFT/', repoUrl: 'https://github.com/hamouda-10/COINSHIFT' },
-{ category: 'websites', titleKey: 'p17-title', image: 'images/Websites/MANAGE COINS.png', liveUrl: 'https://hamouda-10.github.io/MANAGE-COINS/', repoUrl: 'https://github.com/hamouda-10/MANAGE-COINS' },
-{ category: 'websites', titleKey: 'p18-title', image: 'images/Websites/FITNESS.png', liveUrl: 'https://hamouda-10.github.io/FITNESS/', repoUrl: 'https://github.com/hamouda-10/FITNESS' },
-{ category: 'websites', titleKey: 'p19-title', image: 'images/Websites/MATENSASH.png', liveUrl: 'https://hamouda-10.github.io/MATENSASH//', repoUrl: 'https://github.com/hamouda-10/MATENSASH' },
-{ category: 'websites', titleKey: 'p20-title', image: 'images/Websites/EH ELMOSHKELAH.png', liveUrl: 'https://what-s-wrong.ai.studio/', repoUrl: 'https://github.com/hamouda-10/EH-ELMOSHKELAH' },
-{ category: 'websites', titleKey: 'p21-title', image: 'images/Websites/what-should-i-say.png', liveUrl: 'https://what-should-i-say.ai.studio/', repoUrl: 'https://github.com/hamouda-10/what-should-i-say' },
-{ category: 'websites', titleKey: 'p22-title', image: 'images/Websites/TIME PRAYER.png', liveUrl: 'https://hamouda-10.github.io/TIME-OF-PRAYER/', repoUrl: 'https://github.com/hamouda-10/TIME-OF-PRAYER' },
-{ category: 'websites', titleKey: 'p23-title', image: 'images/Websites/ANALYSIS.png', liveUrl: 'https://hamouda-10.github.io/ANALYSIS/', repoUrl: 'https://github.com/hamouda-10/ANALYSIS' },
-{ category: 'websites', titleKey: 'p24-title', image: 'images/Websites/GUESS FOOD.png', liveUrl: 'https://hamouda-10.github.io/GUESS-FOOD/', repoUrl: 'https://github.com/hamouda-10/GUESS-FOOD' },
-{ category: 'websites', titleKey: 'p25-title', image: 'images/Websites/TAGWEED.png', liveUrl: 'https://hamouda-10.github.io/TAGWEED/', repoUrl: 'https://github.com/hamouda-10/TAGWEED' },
-{ category: 'websites', titleKey: 'p26-title', image: 'images/Websites/IZAA.png', liveUrl: 'https://hamouda-10.github.io/IZAA/', repoUrl: 'https://github.com/hamouda-10/IZAA' },
-{ category: 'websites', titleKey: 'p27-title', image: 'images/Websites/WHITE BOARD.png', liveUrl: 'https://hamouda-10.github.io/White-Board/', repoUrl: 'https://github.com/hamouda-10/White-Board' },
-{ category: 'websites', titleKey: 'p28-title', image: 'images/Websites/XO GAME.png', liveUrl: 'https://hamouda-10.github.io/PRO-XO-GAME/', repoUrl: 'https://github.com/hamouda-10/PRO-XO-GAME' },
+    // Professional Websites
 
-// UI / Frontend
-{ category: 'websites', titleKey: 'p29-title', image: 'images/Websites/IMAGES.png', liveUrl: 'https://hamouda-10.github.io/IMAGES/', repoUrl: 'https://github.com/hamouda-10/IMAGES' },
-{ category: 'websites', titleKey: 'p30-title', image: 'images/Websites/PLANETS.png', liveUrl: 'https://hamouda-10.github.io/PLANETS/', repoUrl: 'https://github.com/hamouda-10/PLANETS' },
-{ category: 'websites', titleKey: 'p31-title', image: 'images/Websites/SPIRO.png', liveUrl: 'https://hamouda-10.github.io/Spiro-Spatnis-Card/', repoUrl: 'https://github.com/hamouda-10/Spiro-Spatnis-Card' },
-{ category: 'websites', titleKey: 'p32-title', image: 'images/Websites/CANS.png', liveUrl: 'https://hamouda-10.github.io/CANS/', repoUrl: 'https://github.com/hamouda-10/CANS' },
-{ category: 'websites', titleKey: 'p33-title', image: 'images/Websites/MOON.png', liveUrl: 'https://hamouda-10.github.io/MOON/', repoUrl: 'https://github.com/hamouda-10/MOON' },
-{ category: 'websites', titleKey: 'p34-title', image: 'images/Websites/GLASSES LIST.png', liveUrl: 'https://hamouda-10.github.io/GLASSES-MENU/', repoUrl: 'https://github.com/hamouda-10/GLASSES-MENU' },
-{ category: 'websites', titleKey: 'p35-title', image: 'images/Websites/SOCIAL BUTTONS.png', liveUrl: 'https://hamouda-10.github.io/SOCIAL-ICON-BUTTONS/', repoUrl: 'https://github.com/hamouda-10/SOCIAL-ICON-BUTTONS' },
+    { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/PRO COURSES.png', liveUrl: 'https://hamouda-10.github.io/PRO-COURSES/', repoUrl: 'https://github.com/hamouda-10/PRO-COURSES' },
 
-// Login Designs
-{ category: 'websites', titleKey: 'p36-title', image: 'images/Websites/COLOR LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLUR-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLUR-LOGIN/settings/pages' },
-{ category: 'websites', titleKey: 'p37-title', image: 'images/Websites/RED LOGIN.png', liveUrl: 'https://hamouda-10.github.io/RED-LOGIN/', repoUrl: 'https://github.com/hamouda-10/RED-LOGIN' },
-{ category: 'websites', titleKey: 'p38-title', image: 'images/Websites/BLACK LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLACK-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLACK-LOGIN' },
-{ category: 'websites', titleKey: 'p39-title', image: 'images/Websites/MAN LOGIN.png', liveUrl: 'https://hamouda-10.github.io/MAN-LOGIN/', repoUrl: 'https://github.com/hamouda-10/MAN-LOGIN' },
-{ category: 'websites', titleKey: 'p40-title', image: 'images/Websites/IOS LOGIN.png', liveUrl: 'https://hamouda-10.github.io/LOGIN-IPHONE/', repoUrl: 'https://github.com/hamouda-10/LOGIN-IPHONE' },
+    { category: 'websites', titleKey: 'p12-title', image: 'images/Websites/AMAZONE CLONE.png', liveUrl: 'https://hamouda-10.github.io/STORE-AMAZON-/', repoUrl: 'https://github.com/hamouda-10/STORE-AMAZON-' },
 
-// Small Projects
-{ category: 'websites', titleKey: 'p41-title', image: 'images/Websites/ZOOM.png', liveUrl: 'https://hamouda-10.github.io/ZOOM-WEBSITE/', repoUrl: 'https://github.com/hamouda-10/ZOOM-WEBSITE' },
+    { category: 'websites', titleKey: 'p13-title', image: 'images/Websites/HEADPHONE.png', liveUrl: 'https://hamouda-10.github.io/HEADPHONES/', repoUrl: 'https://github.com/hamouda-10/HEADPHONES' },
+
+    { category: 'websites', titleKey: 'p14-title', image: 'images/Websites/EDUCATION PLATFORM.png', liveUrl: 'https://hamouda-10.github.io/edu-platform-elshoura/#', repoUrl: 'https://github.com/hamouda-10/edu-platform-elshoura' },
+
+    { category: 'websites', titleKey: 'p15-title', image: 'images/Websites/YOUTUBE CLONE.png', liveUrl: 'https://hamouda-10.github.io/YOUTUBE-CLONE/', repoUrl: 'https://github.com/hamouda-10/YOUTUBE-CLONE' },
+
+
+    // Interactive Projects
+
+    { category: 'websites', titleKey: 'p16-title', image: 'images/Websites/COINSHIFT.png', liveUrl: 'https://hamouda-10.github.io/COINSHIFT/', repoUrl: 'https://github.com/hamouda-10/COINSHIFT' },
+
+    { category: 'websites', titleKey: 'p17-title', image: 'images/Websites/MANAGE COINS.png', liveUrl: 'https://hamouda-10.github.io/MANAGE-COINS/', repoUrl: 'https://github.com/hamouda-10/MANAGE-COINS' },
+
+    { category: 'websites', titleKey: 'p18-title', image: 'images/Websites/FITNESS.png', liveUrl: 'https://hamouda-10.github.io/FITNESS/', repoUrl: 'https://github.com/hamouda-10/FITNESS' },
+
+    { category: 'websites', titleKey: 'p19-title', image: 'images/Websites/MATENSASH.png', liveUrl: 'https://hamouda-10.github.io/MATENSASH//', repoUrl: 'https://github.com/hamouda-10/MATENSASH' },
+
+    { category: 'websites', titleKey: 'p20-title', image: 'images/Websites/EH ELMOSHKELAH.png', liveUrl: 'https://what-s-wrong.ai.studio/', repoUrl: 'https://github.com/hamouda-10/EH-ELMOSHKELAH' },
+
+    { category: 'websites', titleKey: 'p21-title', image: 'images/Websites/what-should-i-say.png', liveUrl: 'https://what-should-i-say.ai.studio/', repoUrl: 'https://github.com/hamouda-10/what-should-i-say' },
+
+    // NEW PROJECTS
+
+    { category: 'websites', titleKey: 'p22-title', image: 'images/Websites/AMANAK.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/AMANAK' },
+
+    { category: 'websites', titleKey: 'p23-title', image: 'images/Websites/MY LIBRARY.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/My-Library' },
+
+    { category: 'websites', titleKey: 'p24-title', image: 'images/Websites/TIME PRAYER.png', liveUrl: 'https://hamouda-10.github.io/TIME-OF-PRAYER/', repoUrl: 'https://github.com/hamouda-10/TIME-OF-PRAYER' },
+
+    { category: 'websites', titleKey: 'p25-title', image: 'images/Websites/ANALYSIS.png', liveUrl: 'https://hamouda-10.github.io/ANALYSIS/', repoUrl: 'https://github.com/hamouda-10/ANALYSIS' },
+
+    { category: 'websites', titleKey: 'p26-title', image: 'images/Websites/GUESS FOOD.png', liveUrl: 'https://hamouda-10.github.io/GUESS-FOOD/', repoUrl: 'https://github.com/hamouda-10/GUESS-FOOD' },
+
+    { category: 'websites', titleKey: 'p27-title', image: 'images/Websites/TAGWEED.png', liveUrl: 'https://hamouda-10.github.io/TAGWEED/', repoUrl: 'https://github.com/hamouda-10/TAGWEED' },
+
+    { category: 'websites', titleKey: 'p28-title', image: 'images/Websites/IZAA.png', liveUrl: 'https://hamouda-10.github.io/IZAA/', repoUrl: 'https://github.com/hamouda-10/IZAA' },
+
+    { category: 'websites', titleKey: 'p29-title', image: 'images/Websites/WHITE BOARD.png', liveUrl: 'https://hamouda-10.github.io/White-Board/', repoUrl: 'https://github.com/hamouda-10/White-Board' },
+
+    { category: 'websites', titleKey: 'p30-title', image: 'images/Websites/XO GAME.png', liveUrl: 'https://hamouda-10.github.io/PRO-XO-GAME/', repoUrl: 'https://github.com/hamouda-10/PRO-XO-GAME' },
+
+
+    // UI / Frontend
+
+    { category: 'websites', titleKey: 'p31-title', image: 'images/Websites/IMAGES.png', liveUrl: 'https://hamouda-10.github.io/IMAGES/', repoUrl: 'https://github.com/hamouda-10/IMAGES' },
+
+    { category: 'websites', titleKey: 'p32-title', image: 'images/Websites/PLANETS.png', liveUrl: 'https://hamouda-10.github.io/PLANETS/', repoUrl: 'https://github.com/hamouda-10/PLANETS' },
+
+    { category: 'websites', titleKey: 'p33-title', image: 'images/Websites/SPIRO.png', liveUrl: 'https://hamouda-10.github.io/Spiro-Spatnis-Card/', repoUrl: 'https://github.com/hamouda-10/Spiro-Spatnis-Card' },
+
+    { category: 'websites', titleKey: 'p34-title', image: 'images/Websites/CANS.png', liveUrl: 'https://hamouda-10.github.io/CANS/', repoUrl: 'https://github.com/hamouda-10/CANS' },
+
+    { category: 'websites', titleKey: 'p35-title', image: 'images/Websites/MOON.png', liveUrl: 'https://hamouda-10.github.io/MOON/', repoUrl: 'https://github.com/hamouda-10/MOON' },
+
+    { category: 'websites', titleKey: 'p36-title', image: 'images/Websites/GLASSES LIST.png', liveUrl: 'https://hamouda-10.github.io/GLASSES-MENU/', repoUrl: 'https://github.com/hamouda-10/GLASSES-MENU' },
+
+    { category: 'websites', titleKey: 'p37-title', image: 'images/Websites/SOCIAL BUTTONS.png', liveUrl: 'https://hamouda-10.github.io/SOCIAL-ICON-BUTTONS/', repoUrl: 'https://github.com/hamouda-10/SOCIAL-ICON-BUTTONS' },
+
+
+    // Login Designs
+
+    { category: 'websites', titleKey: 'p38-title', image: 'images/Websites/COLOR LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLUR-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLUR-LOGIN/settings/pages' },
+
+    { category: 'websites', titleKey: 'p39-title', image: 'images/Websites/RED LOGIN.png', liveUrl: 'https://hamouda-10.github.io/RED-LOGIN/', repoUrl: 'https://github.com/hamouda-10/RED-LOGIN' },
+
+    { category: 'websites', titleKey: 'p40-title', image: 'images/Websites/BLACK LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLACK-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLACK-LOGIN' },
+
+    { category: 'websites', titleKey: 'p41-title', image: 'images/Websites/MAN LOGIN.png', liveUrl: 'https://hamouda-10.github.io/MAN-LOGIN/', repoUrl: 'https://github.com/hamouda-10/MAN-LOGIN' },
+
+    { category: 'websites', titleKey: 'p42-title', image: 'images/Websites/IOS LOGIN.png', liveUrl: 'https://hamouda-10.github.io/LOGIN-IPHONE/', repoUrl: 'https://github.com/hamouda-10/LOGIN-IPHONE' },
+
+
+    // Small Projects
+
+    { category: 'websites', titleKey: 'p43-title', image: 'images/Websites/ZOOM.png', liveUrl: 'https://hamouda-10.github.io/ZOOM-WEBSITE/', repoUrl: 'https://github.com/hamouda-10/ZOOM-WEBSITE' }
+
 ];
 
     const translations = {
@@ -172,7 +215,7 @@ const portfolioData = [
 'cert16-title': 'Soft Skills – Mind Luster',
 'cert17-title': 'Web Development Course',
             'portfolio-websites': 'Websites', 'portfolio-designs': 'Designs', 'portfolio-view-design': 'View Design',
-          'p1-title': 'MEETMIND AI',
+         'p1-title': 'MEETMIND AI',
 'p2-title': 'THE SEA',
 'p3-title': 'AI CAMERA',
 'p4-title': 'PEXELZO AI',
@@ -183,11 +226,13 @@ const portfolioData = [
 'p9-title': 'MADINATY REAL ESTATE',
 'p10-title': 'PERSONAL PORTFOLIO',
 
+
 'p11-title': 'PRO COURSES',
 'p12-title': 'AMAZON CLONE',
 'p13-title': 'HEADPHONES STORE',
 'p14-title': 'EDUCATION PLATFORM',
 'p15-title': 'YOUTUBE CLONE',
+
 
 'p16-title': 'COINSHIFT',
 'p17-title': 'MANAGE COINS',
@@ -195,29 +240,38 @@ const portfolioData = [
 'p19-title': 'MATENSASH',
 'p20-title': 'EH ELMOSHKELAH',
 'p21-title': 'WHAT SHOULD I SAY',
-'p22-title': 'TIME OF PRAYER',
-'p23-title': 'ANALYSIS',
-'p24-title': 'GUESS FOOD',
-'p25-title': 'TAGWEED',
-'p26-title': 'IZAA OF QURAN',
-'p27-title': 'WHITE BOARD',
-'p28-title': 'XO GAME',
 
-'p29-title': 'IMAGES SLIDES',
-'p30-title': 'PLANETS WEBSITE',
-'p31-title': 'SPIRO SPATIS DESIGN',
-'p32-title': 'ANIMATION CANS',
-'p33-title': 'MOON ANIMATION',
-'p34-title': 'GLASSES LIST',
-'p35-title': 'SOCIAL MEDIA BUTTONS',
+// NEW PROJECTS
+'p22-title': 'AMANAK',
+'p23-title': 'MY LIBRARY',
 
-'p36-title': 'COLOR LOGIN',
-'p37-title': 'RED LOGIN',
-'p38-title': 'BLACK LOGIN',
-'p39-title': 'MAN LOGIN',
-'p40-title': 'IOS LOGIN',
+// OLD PROJECTS SHIFTED +2
+'p24-title': 'TIME OF PRAYER',
+'p25-title': 'ANALYSIS',
+'p26-title': 'GUESS FOOD',
+'p27-title': 'TAGWEED',
+'p28-title': 'IZAA OF QURAN',
+'p29-title': 'WHITE BOARD',
+'p30-title': 'XO GAME',
 
-'p41-title': 'ZOOM WEBSITE',
+
+'p31-title': 'IMAGES SLIDES',
+'p32-title': 'PLANETS WEBSITE',
+'p33-title': 'SPIRO SPATIS DESIGN',
+'p34-title': 'ANIMATION CANS',
+'p35-title': 'MOON ANIMATION',
+'p36-title': 'GLASSES LIST',
+'p37-title': 'SOCIAL MEDIA BUTTONS',
+
+
+'p38-title': 'COLOR LOGIN',
+'p39-title': 'RED LOGIN',
+'p40-title': 'BLACK LOGIN',
+'p41-title': 'MAN LOGIN',
+'p42-title': 'IOS LOGIN',
+
+
+'p43-title': 'ZOOM WEBSITE',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
