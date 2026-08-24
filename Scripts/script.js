@@ -45,31 +45,221 @@ document.addEventListener('DOMContentLoaded', () => {
     const galleryCounter = getElem('#gallery-counter');
 // --- DATA ---
 const certificationsData = [
-    // New Certificates
-    { id: 'cert18', titleKey: 'cert18-title', issuer: 'AUC', logo: 'images/Certificates/AUC.png', verifyUrl: './Certificates/AUC.pdf' },
-    { id: 'cert19', titleKey: 'cert19-title', issuer: 'HARVARD', logo: 'images/Certificates/HARVARD.png', verifyUrl: './Certificates/HARVARD.pdf' },
-    { id: 'cert20', titleKey: 'cert20-title', issuer: 'MEU', logo: 'images/Certificates/MEU.png', verifyUrl: './Certificates/MEU.pdf' },
-    { id: 'cert21', titleKey: 'cert21-title', issuer: 'DEPI', logo: 'images/Certificates/DEPI.png', verifyUrl: './Certificates/DEPI.pdf' },
-    { id: 'cert22', titleKey: 'cert22-title', issuer: 'COURSERA', logo: 'images/Certificates/COURSERA.png', verifyUrl: './Certificates/COURSERA.pdf' },
+    // =========================================================
+    // NEW CERTIFICATES
+    // =========================================================
 
-    // Existing Certificates
-    { id: 'cert1', titleKey: 'cert1-title', issuer: 'GOOGLE', logo: 'images/Certificates/GOOGLE.png', verifyUrl: './Certificates/GOOGLE1.pdf' },
-    { id: 'cert2', titleKey: 'cert2-title', issuer: 'GOOGLE', logo: 'images/Certificates/GOOGLE.png', verifyUrl: './Certificates/GOOGLE2.pdf' },
-    { id: 'cert3', titleKey: 'cert3-title', issuer: 'GOOGLE', logo: 'images/Certificates/GOOGLE.png', verifyUrl: './Certificates/GOOGLE3.pdf' },
-    { id: 'cert4', titleKey: 'cert4-title', issuer: 'GOOGLE', logo: 'images/Certificates/GOOGLE.png', verifyUrl: './Certificates/GOOGLE4.pdf' },
-    { id: 'cert17', titleKey: 'cert17-title', issuer: 'GDG', logo: 'images/Certificates/GDG.png', verifyUrl: './Certificates/GDG.pdf' },
-    { id: 'cert5', titleKey: 'cert5-title', issuer: 'MICROSOFT', logo: 'images/Certificates/MICROSOFT.png', verifyUrl: './Certificates/MICROSOFT1.pdf' },
-    { id: 'cert6', titleKey: 'cert6-title', issuer: 'MICROSOFT', logo: 'images/Certificates/MICROSOFT.png', verifyUrl: './Certificates/MICROSOFT2.pdf' },
-    { id: 'cert7', titleKey: 'cert7-title', issuer: 'MICROSOFT', logo: 'images/Certificates/MICROSOFT.png', verifyUrl: './Certificates/MICROSOFT3.pdf' },
-    { id: 'cert8', titleKey: 'cert8-title', issuer: 'CISCO', logo: 'images/Certificates/CISCO.png', verifyUrl: './Certificates/CISCO1.pdf' },
-    { id: 'cert9', titleKey: 'cert9-title', issuer: 'CISCO', logo: 'images/Certificates/CISCO.png', verifyUrl: './Certificates/CISCO2.pdf' },
-    { id: 'cert10', titleKey: 'cert10-title', issuer: 'UDEMY', logo: 'images/Certificates/UDEMY.png', verifyUrl: './Certificates/UDEMY1.pdf' },
-    { id: 'cert11', titleKey: 'cert11-title', issuer: 'UDEMY', logo: 'images/Certificates/UDEMY.png', verifyUrl: './Certificates/UDEMY2.pdf' },
-    { id: 'cert12', titleKey: 'cert12-title', issuer: 'UDEMY', logo: 'images/Certificates/UDEMY.png', verifyUrl: './Certificates/UDEMY3.pdf' },
-    { id: 'cert13', titleKey: 'cert13-title', issuer: 'UDEMY', logo: 'images/Certificates/UDEMY.png', verifyUrl: './Certificates/UDEMY4.pdf' },
-    { id: 'cert14', titleKey: 'cert14-title', issuer: 'ICDL', logo: 'images/Certificates/ICDL.png', verifyUrl: './Certificates/ICDL.pdf' },
-    { id: 'cert15', titleKey: 'cert15-title', issuer: 'MINDLUSTER', logo: 'images/Certificates/MINDLUSTER.png', verifyUrl: './Certificates/MINDLUSTER2.pdf' },
-    { id: 'cert16', titleKey: 'cert16-title', issuer: 'MINDLUSTER', logo: 'images/Certificates/MINDLUSTER.png', verifyUrl: './Certificates/MINDLUSTER1.pdf' },
+    {
+        id: 'cert18',
+        titleKey: 'cert18-title',
+        issuer: 'AUC',
+        logo: './images/Certificates/AUC.png',
+        verifyUrl: './Certificates/AUC.pdf'
+    },
+
+    {
+        id: 'cert19',
+        titleKey: 'cert19-title',
+        issuer: 'HARVARD',
+        logo: './images/Certificates/HARVARD.png',
+        verifyUrl: './Certificates/HARVARD.pdf'
+    },
+
+    {
+        id: 'cert20',
+        titleKey: 'cert20-title',
+        issuer: 'MEU',
+        logo: './images/Certificates/MEU.png',
+        verifyUrl: './Certificates/MEU.pdf'
+    },
+
+    {
+        id: 'cert21',
+        titleKey: 'cert21-title',
+        issuer: 'DEPI',
+        logo: './images/Certificates/DEPI.png',
+        verifyUrl: './Certificates/DEPI.pdf'
+    },
+
+    {
+        id: 'cert22',
+        titleKey: 'cert22-title',
+        issuer: 'COURSERA',
+        logo: './images/Certificates/COURSERA.png',
+        verifyUrl: './Certificates/COURSERA.pdf'
+    },
+
+
+    // =========================================================
+    // GOOGLE
+    // =========================================================
+
+    {
+        id: 'cert1',
+        titleKey: 'cert1-title',
+        issuer: 'GOOGLE',
+        logo: './images/Certificates/GOOGLE.png',
+        verifyUrl: './Certificates/GOOGLE1.pdf'
+    },
+
+    {
+        id: 'cert2',
+        titleKey: 'cert2-title',
+        issuer: 'GOOGLE',
+        logo: './images/Certificates/GOOGLE.png',
+        verifyUrl: './Certificates/GOOGLE2.pdf'
+    },
+
+    {
+        id: 'cert3',
+        titleKey: 'cert3-title',
+        issuer: 'GOOGLE',
+        logo: './images/Certificates/GOOGLE.png',
+        verifyUrl: './Certificates/GOOGLE3.pdf'
+    },
+
+    {
+        id: 'cert4',
+        titleKey: 'cert4-title',
+        issuer: 'GOOGLE',
+        logo: './images/Certificates/GOOGLE.png',
+        verifyUrl: './Certificates/GOOGLE4.pdf'
+    },
+
+
+    // =========================================================
+    // GDG
+    // =========================================================
+
+    {
+        id: 'cert17',
+        titleKey: 'cert17-title',
+        issuer: 'GDG',
+        logo: './images/Certificates/GDG.png',
+        verifyUrl: './Certificates/GDG.pdf'
+    },
+
+
+    // =========================================================
+    // MICROSOFT
+    // =========================================================
+
+    {
+        id: 'cert5',
+        titleKey: 'cert5-title',
+        issuer: 'MICROSOFT',
+        logo: './images/Certificates/MICROSOFT.png',
+        verifyUrl: './Certificates/MICROSOFT1.pdf'
+    },
+
+    {
+        id: 'cert6',
+        titleKey: 'cert6-title',
+        issuer: 'MICROSOFT',
+        logo: './images/Certificates/MICROSOFT.png',
+        verifyUrl: './Certificates/MICROSOFT2.pdf'
+    },
+
+    {
+        id: 'cert7',
+        titleKey: 'cert7-title',
+        issuer: 'MICROSOFT',
+        logo: './images/Certificates/MICROSOFT.png',
+        verifyUrl: './Certificates/MICROSOFT3.pdf'
+    },
+
+
+    // =========================================================
+    // CISCO
+    // =========================================================
+
+    {
+        id: 'cert8',
+        titleKey: 'cert8-title',
+        issuer: 'CISCO',
+        logo: './images/Certificates/CISCO.png',
+        verifyUrl: './Certificates/CISCO1.pdf'
+    },
+
+    {
+        id: 'cert9',
+        titleKey: 'cert9-title',
+        issuer: 'CISCO',
+        logo: './images/Certificates/CISCO.png',
+        verifyUrl: './Certificates/CISCO2.pdf'
+    },
+
+
+    // =========================================================
+    // UDEMY
+    // =========================================================
+
+    {
+        id: 'cert10',
+        titleKey: 'cert10-title',
+        issuer: 'UDEMY',
+        logo: './images/Certificates/UDEMY.png',
+        verifyUrl: './Certificates/UDEMY1.pdf'
+    },
+
+    {
+        id: 'cert11',
+        titleKey: 'cert11-title',
+        issuer: 'UDEMY',
+        logo: './images/Certificates/UDEMY.png',
+        verifyUrl: './Certificates/UDEMY2.pdf'
+    },
+
+    {
+        id: 'cert12',
+        titleKey: 'cert12-title',
+        issuer: 'UDEMY',
+        logo: './images/Certificates/UDEMY.png',
+        verifyUrl: './Certificates/UDEMY3.pdf'
+    },
+
+    {
+        id: 'cert13',
+        titleKey: 'cert13-title',
+        issuer: 'UDEMY',
+        logo: './images/Certificates/UDEMY.png',
+        verifyUrl: './Certificates/UDEMY4.pdf'
+    },
+
+
+    // =========================================================
+    // ICDL
+    // =========================================================
+
+    {
+        id: 'cert14',
+        titleKey: 'cert14-title',
+        issuer: 'ICDL',
+        logo: './images/Certificates/ICDL.png',
+        verifyUrl: './Certificates/ICDL.pdf'
+    },
+
+
+    // =========================================================
+    // MINDLUSTER
+    // =========================================================
+
+    {
+        id: 'cert15',
+        titleKey: 'cert15-title',
+        issuer: 'MINDLUSTER',
+        logo: './images/Certificates/MINDLUSTER.png',
+        verifyUrl: './Certificates/MINDLUSTER2.pdf'
+    },
+
+    {
+        id: 'cert16',
+        titleKey: 'cert16-title',
+        issuer: 'MINDLUSTER',
+        logo: './images/Certificates/MINDLUSTER.png',
+        verifyUrl: './Certificates/MINDLUSTER1.pdf'
+    }
+
 ];
 
 const portfolioData = [
