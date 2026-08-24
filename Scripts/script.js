@@ -53,7 +53,7 @@ const certificationsData = [
     { id: 'cert22', titleKey: 'cert22-title', issuer: 'COURSERA', logo: 'LOGO/COURSERA.png', verifyUrl: './Certificates/COURSERA.pdf' },
 
     // Existing Certificates
-    { id: 'cert1', titleKey: 'cert1-title', issuer: 'GOOGLE', logo: 'LOGO/GOOGLE.png', verifyUrl: './Certificates/GOOGLE1.pdf' },
+    { id: 'cert1', titleKey: 'cert1-title', issuer: 'GOOGLE', logo: 'OGO/GOOGLE.png', verifyUrl: './Certificates/GOOGLE1.pdf' },
     { id: 'cert2', titleKey: 'cert2-title', issuer: 'GOOGLE', logo: 'LOGO/GOOGLE.png', verifyUrl: './Certificates/GOOGLE2.pdf' },
     { id: 'cert3', titleKey: 'cert3-title', issuer: 'GOOGLE', logo: 'LOGO/GOOGLE.png', verifyUrl: './Certificates/GOOGLE3.pdf' },
     { id: 'cert4', titleKey: 'cert4-title', issuer: 'GOOGLE', logo: 'LOGO/GOOGLE.png', verifyUrl: './Certificates/GOOGLE4.pdf' },
