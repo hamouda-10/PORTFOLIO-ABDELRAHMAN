@@ -319,7 +319,7 @@ const portfolioData = [
 'course-soft2': '<b>Soft Skills 2</b> – Maaref Academy',
 
 
-            'cv-dev-download': 'Download CV',
+            'cv-dev-download': 'View My Cv',
             'contact-location': 'Location', 'contact-email': 'Email', 'contact-phone': 'Phone', 'contact-whatsapp': 'WhatsApp',
             'form-name': 'Your Name', 'form-email': 'Your Email', 'form-message': 'Your Message', 'form-submit': 'Send Message',
            
@@ -521,7 +521,7 @@ const portfolioData = [
     'course-english': '<b>اللغة الإنجليزية</b> – Maaref Academy',
     'course-soft1': '<b>المهارات الشخصية</b> – Mind Luster',
     'course-soft2': '<b>المهارات الشخصية 2</b> – Maaref Academy',
-    'cv-dev-download': 'تحميل السيرة الذاتية (للمطور)',
+    'cv-dev-download': 'مشاهدة السيرة الذاتية (للمطور)',
     'contact-location': 'الموقع',
     'contact-email': 'البريد الإلكتروني',
     'contact-phone': 'الهاتف',
