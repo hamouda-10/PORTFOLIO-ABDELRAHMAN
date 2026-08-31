@@ -221,7 +221,7 @@ html[dir="rtl"] .person-photo {
 }
 
 .profile-name {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-top: 1rem;
     font-family: Alegreya, serif !important;
@@ -230,9 +230,13 @@ html[dir="rtl"] .person-photo {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    margin-top: 0.90rem;
-    
+    align-items: center;
+    gap: 5px;
+    margin-top: 1rem;
+
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    margin-right: -24px;
 }
 
 html[dir="rtl"] .social-links {
@@ -241,28 +245,27 @@ html[dir="rtl"] .social-links {
 
 .social-links a {
     color: var(--text-secondary);
-    transition: 0.1S;
-    border: 4px solid var(--gold-default);
-    border-radius: 30%; 
-    width: 50px; 
+    transition: 0.1s;
+    border: 3px solid var(--gold-default);
+    border-radius: 30%;
+    width: 40px;
     height: 40px;
-    display: inline-flex; 
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none; 
+    text-decoration: none;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .social-links a:hover {
-    color: var(--gold-default);
     transform: scale(1.2);
-    background-color: var(--gold-default); 
-    color: #000000; 
+    background-color: var(--gold-default);
+    color: #000000;
 }
-
-
 .main-nav {
     flex-grow: 1;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
