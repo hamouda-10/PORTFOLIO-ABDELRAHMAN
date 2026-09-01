@@ -90,7 +90,7 @@ const portfolioData = [
 
     { category: 'websites', titleKey: 'p7-title', image: 'images/Websites/VIRAL CONTENT.png', liveUrl: 'https://hamouda-10.github.io/Estate-Lens/', repoUrl: 'https://github.com/hamouda-10/Estate-Lens' },
 
-    { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/Fruit.png', liveUrl: 'https://hamouda-10.github.io/Fruit-Delivery/', repoUrl: 'https://github.com/hamouda-10/Fruit-Delivery' },
+    { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/Fruit.png', liveUrl: 'https://hamouda-10.github.io/TRANING-PROJECT/', repoUrl: 'https://github.com/hamouda-10/Fruit-Delivery' },
 
     { category: 'websites', titleKey: 'p9-title', image: 'images/Websites/MADINATY.png', liveUrl: 'https://hamouda-10.github.io/1/', repoUrl: 'https://github.com/hamouda-10/1' },
 
