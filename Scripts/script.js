@@ -77,6 +77,7 @@ const portfolioData = [
     // Featured Projects
 
     { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/meetmind.png', liveUrl: 'https://meetmind-atlas.lovable.app/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
+     { category: 'websites', titleKey: 'p44-title', image: 'images/Websites/ESTEKRAR-RE.png', liveUrl: 'https://hamouda-10.github.io/ESTEKRAR-RE/index.html', repoUrl: 'https://github.com/hamouda-10/ESTEKRAR-RE' },
 
     { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
 
@@ -272,6 +273,7 @@ const portfolioData = [
 
 
 'p43-title': 'ZOOM WEBSITE',
+'p44-title': 'ESTEKRAR-RE',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
