@@ -76,7 +76,7 @@ const portfolioData = [
 
     // Featured Projects
 
-    { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/meetmind.png', liveUrl: 'https://meetmind-atlas.lovable.app/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
+    { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/metmind.png', liveUrl: 'https://project-graduation.ai.studio/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
      { category: 'websites', titleKey: 'p44-title', image: 'images/Websites/ESTEKRAR-RE.png', liveUrl: 'https://hamouda-10.github.io/ESTEKRAR-RE/index.html', repoUrl: 'https://github.com/hamouda-10/ESTEKRAR-RE' },
 
     { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
