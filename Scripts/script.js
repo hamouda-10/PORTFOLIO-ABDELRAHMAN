@@ -84,6 +84,8 @@ const portfolioData = [
                { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
                   { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
 
+                   { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
+
                    { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/STRIDE 3D.png', liveUrl: 'https://stride-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/STRIDE-3D' },
                      { category: 'websites', titleKey: 'p50-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
 
