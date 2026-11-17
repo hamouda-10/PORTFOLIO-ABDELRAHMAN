@@ -84,7 +84,7 @@ const portfolioData = [
 
                  { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
                    { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/STRIDE 3D.png', liveUrl: 'https://stride-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/STRIDE-3D' },
-                     { category: 'websites', titleKey: 'p450-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
+                     { category: 'websites', titleKey: 'p50-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
 
     { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
 
