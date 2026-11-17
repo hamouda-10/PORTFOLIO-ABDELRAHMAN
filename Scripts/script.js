@@ -83,8 +83,8 @@ const portfolioData = [
                { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
 
                  { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
-                   { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/KETABY.png', liveUrl: '', repoUrl: '' },
-                     { category: 'websites', titleKey: 'p450-title', image: 'images/Websites/KETABY.png', liveUrl: '', repoUrl: '' },
+                   { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/STRIDE 3D.png', liveUrl: 'https://stride-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/STRIDE-3D' },
+                     { category: 'websites', titleKey: 'p450-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
 
     { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
 
@@ -284,6 +284,9 @@ const portfolioData = [
 'p45-title': 'ALSHIFAA CLINIC',
 'p46-title': 'ELMAWADDA',
 'p47-title': 'KETABY',
+'p48-title': 'POKE PAL',
+'p49-title': 'STRIDE 3D',
+'p50-title': 'JAC 3D',
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
             'exp-portegy-main-title': 'Career Progression (Part-time)', 'exp-portegy-date': 'Dec 2024 - Present',
