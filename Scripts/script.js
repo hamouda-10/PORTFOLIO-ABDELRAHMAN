@@ -302,6 +302,9 @@ const portfolioData = [
 'p50-title': 'JAC 3D',
 'p51-title': 'WHITE HONEY',
 'p52-title': 'BLENDY',
+'p53-title': 'HARBORLUX',
+'p54-title': 'KRUNG TRAVEL',
+
 
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
