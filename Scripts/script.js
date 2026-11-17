@@ -82,6 +82,10 @@ const portfolioData = [
            { category: 'websites', titleKey: 'p46-title', image: 'images/Websites/ELMAWADDA.png', liveUrl: 'https://elmawadda.ai.studio/', repoUrl: 'https://elmawadda.ai.studio/' },
                { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
 
+                 { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
+                   { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/KETABY.png', liveUrl: '', repoUrl: '' },
+                     { category: 'websites', titleKey: 'p450-title', image: 'images/Websites/KETABY.png', liveUrl: '', repoUrl: '' },
+
     { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
 
     { category: 'websites', titleKey: 'p3-title', image: 'images/Websites/CAMERA.png', liveUrl: 'https://hamouda-10.github.io/camera/', repoUrl: 'https://github.com/hamouda-10/camera' },
