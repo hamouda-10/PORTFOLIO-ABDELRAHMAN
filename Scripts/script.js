@@ -291,6 +291,9 @@ const portfolioData = [
 'p49-title': 'STRIDE 3D',
 'p50-title': 'JAC 3D',
 'p51-title': 'WHITE HONEY',
+'p52-title': 'BLENDY',
+
+
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
             'exp-portegy-main-title': 'Career Progression (Part-time)', 'exp-portegy-date': 'Dec 2024 - Present',
