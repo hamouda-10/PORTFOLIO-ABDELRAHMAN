@@ -328,7 +328,7 @@ const portfolioData = [
 'p58-title': 'MONS',
 'p59-title': 'KYNE-AERO',
 'p60-title': 'VANTE',
-
+'p61-title': 'RIDE-OUT',
 
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
