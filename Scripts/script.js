@@ -89,6 +89,21 @@ const portfolioData = [
                    { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
 
 
+
+
+
+
+                   { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
+                   { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
+                   { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://hamouda-10.github.io/VANTE/', repoUrl: 'https://github.com/hamouda-10/VANTE' },
+
+
+
+
+
+
+
+
    { category: 'websites', titleKey: 'p55-title', image: 'images/Websites/Kolibrie.png', liveUrl: 'https://kolibrie.ai.studio', repoUrl: 'https://github.com/hamouda-10/Kolibrie-' },
       { category: 'websites', titleKey: 'p56-title', image: 'images/Websites/VEYRA.png', liveUrl: 'https://veyraaa.ai.studio', repoUrl: 'https://github.com/hamouda-10/VEYRA' },
          { category: 'websites', titleKey: 'p57-title', image: 'images/Websites/Aegis Augment.png', liveUrl: 'https://aegis-augment.ai.studio', repoUrl: 'https://github.com/hamouda-10/Aegis-Augment-' },
@@ -309,6 +324,9 @@ const portfolioData = [
 'p55-title': 'KOLIBRIE',
 'p56-title': 'VEYRA',
 'p57-title': 'Aegis Augment ',
+'p58-title': 'MONS',
+'p59-title': 'KYNE-AERO',
+'p60-title': 'VANTE',
 
 
 
