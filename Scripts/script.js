@@ -87,7 +87,7 @@ const portfolioData = [
                    { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
                    { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
                    { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
-
+     { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
 
 
 
@@ -96,6 +96,7 @@ const portfolioData = [
                    { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
                    { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
                    { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://hamouda-10.github.io/VANTE/', repoUrl: 'https://github.com/hamouda-10/VANTE' },
+              
 
 
 
