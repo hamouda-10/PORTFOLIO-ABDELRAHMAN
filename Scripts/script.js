@@ -89,6 +89,10 @@ const portfolioData = [
                    { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
      { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
 
+      { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
+ { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
+
+
 
 
 
@@ -329,6 +333,8 @@ const portfolioData = [
 'p59-title': 'KYNE-AERO',
 'p60-title': 'VANTE',
 'p61-title': 'RIDE-OUT',
+'p62-title': 'SUN-ROOF',
+'p63-title': 'SALTWAKE',
 
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
