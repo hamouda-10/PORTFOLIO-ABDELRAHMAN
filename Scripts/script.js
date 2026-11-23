@@ -91,6 +91,7 @@ const portfolioData = [
 
       { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
  { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
+  { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
 
 
 
@@ -99,7 +100,7 @@ const portfolioData = [
 
                    { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
                    { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
-                   { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://hamouda-10.github.io/VANTE/', repoUrl: 'https://github.com/hamouda-10/VANTE' },
+                   { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://airplane-0.ai.studio', repoUrl: 'https://github.com/hamouda-10/AIRPLANE' },
               
 
 
@@ -335,6 +336,7 @@ const portfolioData = [
 'p61-title': 'RIDE-OUT',
 'p62-title': 'SUN-ROOF',
 'p63-title': 'SALTWAKE',
+'p64-title': 'AIRPLANE',
 
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
