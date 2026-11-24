@@ -83,6 +83,16 @@ const portfolioData = [
        { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
        { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
        { category: 'websites', titleKey: 'p68-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
+ { category: 'websites', titleKey: 'p69-title', image: 'images/Websites/fish-cont.png', liveUrl: 'https://fish-cont.ai.studio', repoUrl: 'https://github.com/hamouda-10/Fish-Cont' },
+
+
+
+
+
+
+
+
+
        
        { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
        { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
@@ -97,11 +107,6 @@ const portfolioData = [
        { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
        { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/CAMERA PRO.png', liveUrl: 'https://camera-proo.ai.studio', repoUrl: 'https://github.com/hamouda-10/CAMERA-PRO' },
         { category: 'websites', titleKey: 'p67-title', image: 'images/Websites/ANIMALS ZOO.png', liveUrl: 'https://animals-zoo.ai.studio', repoUrl: 'https://github.com/hamouda-10/ANIMALS-ZOO' },
-
-
-
-
-
 
                    { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
                    { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
@@ -346,6 +351,7 @@ const portfolioData = [
 'p66-title': 'CAMERA PRO',
 'p67-title': 'ANIMALS ZOO',
 'p68-title': 'Gelato Lab',
+'p69-title': 'Fish Cont',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
