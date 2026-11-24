@@ -93,6 +93,9 @@ const portfolioData = [
  { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
   { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
 
+    { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
+      { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
+
 
 
 
@@ -337,6 +340,8 @@ const portfolioData = [
 'p62-title': 'SUN-ROOF',
 'p63-title': 'SALTWAKE',
 'p64-title': 'AIRPLANE',
+'p65-title': 'HIVEN-HONEY',
+'p66-title': 'GELATO LAB',
 
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
