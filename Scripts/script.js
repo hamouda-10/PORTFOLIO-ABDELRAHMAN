@@ -87,8 +87,8 @@ const portfolioData = [
  { category: 'websites', titleKey: 'p70-title', image: 'images/Websites/cordex-scroll.png', liveUrl: 'https://cordex-scroll.ai.studio', repoUrl: 'https://github.com/hamouda-10/Cordex-Scroll' },
 
 
-
-
+ { category: 'websites', titleKey: 'p71-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
+ { category: 'websites', titleKey: 'p72-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
 
 
 
