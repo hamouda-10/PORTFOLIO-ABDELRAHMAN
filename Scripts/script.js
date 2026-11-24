@@ -79,22 +79,24 @@ const portfolioData = [
     { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/metmind.png', liveUrl: 'https://project-graduation.ai.studio/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
      { category: 'websites', titleKey: 'p44-title', image: 'images/Websites/ESTEKRAR-RE.png', liveUrl: 'https://hamouda-10.github.io/ESTEKRAR-RE/index.html', repoUrl: 'https://github.com/hamouda-10/ESTEKRAR-RE' },
        { category: 'websites', titleKey: 'p45-title', image: 'images/Websites/ALSHIFAA CLINIC.png', liveUrl: 'https://medi-book.ai.studio', repoUrl: 'https://github.com/khaledyasser2005/Doctor-Website' },
+       { category: 'websites', titleKey: 'p46-title', image: 'images/Websites/ELMAWADDA.png', liveUrl: 'https://elmawadda.ai.studio/', repoUrl: 'https://elmawadda.ai.studio/' },
+       { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
+       { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
+       { category: 'websites', titleKey: 'p68-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
+       
+       { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
+       { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
+       { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
+       { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
+       
+       { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
+       { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
+       { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
        { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
-           { category: 'websites', titleKey: 'p46-title', image: 'images/Websites/ELMAWADDA.png', liveUrl: 'https://elmawadda.ai.studio/', repoUrl: 'https://elmawadda.ai.studio/' },
-               { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
-                  { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
-
-                   { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
-                   { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
-                   { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
-     { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
-
-      { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
- { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
-  { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
-
-    { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
-      { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
+       
+       { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
+       { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/CAMERA PRO.png', liveUrl: 'https://camera-proo.ai.studio', repoUrl: 'https://github.com/hamouda-10/CAMERA-PRO' },
+        { category: 'websites', titleKey: 'p67-title', image: 'images/Websites/ANIMALS ZOO.png', liveUrl: 'https://animals-zoo.ai.studio', repoUrl: 'https://github.com/hamouda-10/ANIMALS-ZOO' },
 
 
 
@@ -342,7 +344,8 @@ const portfolioData = [
 'p64-title': 'AIRPLANE',
 'p65-title': 'HIVEN-HONEY',
 'p66-title': 'GELATO LAB',
-
+'p67-title': 'ANIMALS ZOO',
+'p68-title': 'CAMERA PRO',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
