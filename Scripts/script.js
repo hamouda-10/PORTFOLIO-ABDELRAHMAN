@@ -84,6 +84,7 @@ const portfolioData = [
        { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
        { category: 'websites', titleKey: 'p68-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
  { category: 'websites', titleKey: 'p69-title', image: 'images/Websites/fish-cont.png', liveUrl: 'https://fish-cont.ai.studio', repoUrl: 'https://github.com/hamouda-10/Fish-Cont' },
+ { category: 'websites', titleKey: 'p70-title', image: 'images/Websites/cordex-scroll.png', liveUrl: 'https://cordex-scroll.ai.studio', repoUrl: 'https://github.com/hamouda-10/Cordex-Scroll' },
 
 
 
@@ -352,6 +353,7 @@ const portfolioData = [
 'p67-title': 'ANIMALS ZOO',
 'p68-title': 'Gelato Lab',
 'p69-title': 'Fish Cont',
+'p70-title': 'Cordex Scroll',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
