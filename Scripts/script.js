@@ -343,9 +343,9 @@ const portfolioData = [
 'p63-title': 'SALTWAKE',
 'p64-title': 'AIRPLANE',
 'p65-title': 'HIVEN-HONEY',
-'p66-title': 'GELATO LAB',
+'p66-title': 'CAMERA PRO',
 'p67-title': 'ANIMALS ZOO',
-'p68-title': 'CAMERA PRO',
+'p68-title': 'Gelato Lab',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
