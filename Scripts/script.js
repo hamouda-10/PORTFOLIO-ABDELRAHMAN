@@ -89,7 +89,7 @@ const portfolioData = [
 
  { category: 'websites', titleKey: 'p71-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
  { category: 'websites', titleKey: 'p72-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
- { category: 'websites', titleKey: 'p73-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' }
+ { category: 'websites', titleKey: 'p73-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' },
 
 
 
