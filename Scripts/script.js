@@ -90,8 +90,8 @@ const portfolioData = [
  { category: 'websites', titleKey: 'p71-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
  { category: 'websites', titleKey: 'p72-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
  { category: 'websites', titleKey: 'p73-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' },
-
-
+{ category: 'websites', titleKey: 'p74-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
+{ category: 'websites', titleKey: 'p75-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
 
 
        
@@ -357,7 +357,8 @@ const portfolioData = [
 'p71-title': 'Bokhor',
 'p72-title': 'Frostgate Russia',
 'p73-title': 'Noche Viva',
-
+'p74-title': 'Offcut',
+'p75-title': 'Dresses',
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
