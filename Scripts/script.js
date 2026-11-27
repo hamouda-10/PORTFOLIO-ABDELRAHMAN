@@ -97,6 +97,8 @@ const portfolioData = [
  { category: 'websites', titleKey: 'p80-title', image: 'images/Websites/aeris-sky.png', liveUrl: 'https://aeris-sky.ai.studio', repoUrl: 'https://github.com/hamouda-10/aeris-sky' },
     { category: 'websites', titleKey: 'p81-title', image: 'images/Websites/safaari.png', liveUrl: 'https://safaari.ai.studio', repoUrl: 'https://github.com/hamouda-10/safaari' },
     { category: 'websites', titleKey: 'p82-title', image: 'images/Websites/seven-wonders.png', liveUrl: 'https://seven-wonders.ai.studio', repoUrl: 'https://github.com/hamouda-10/Seven-Wonders' },
+{ category: 'websites', titleKey: 'p84-title', image: 'images/Websites/berrywell.png', liveUrl: 'https://berrywell.ai.studio', repoUrl: 'https://github.com/hamouda-10/berrywell' },
+
 
     { category: 'websites', titleKey: 'p13-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
     { category: 'websites', titleKey: 'p14-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
@@ -104,7 +106,7 @@ const portfolioData = [
     { category: 'websites', titleKey: 'p16-title', image: 'images/Websites/broova.png', liveUrl: 'https://broova.ai.studio', repoUrl: 'https://github.com/hamouda-10/broova' },
 
     { category: 'websites', titleKey: 'p79-title', image: 'images/Websites/hala-lab.png', liveUrl: 'https://hala-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/hala-lab' },
-
+    { category: 'websites', titleKey: 'p83-title', image: 'images/Websites/litho-build.png', liveUrl: 'https://litho-build.ai.studio', repoUrl: 'https://github.com/hamouda-10/litho-build' },
 
 
 
@@ -359,6 +361,8 @@ const portfolioData = [
 'p80-title': 'AERIS SKY',
 'p81-title': 'SAFAARI',
 'p82-title': 'SEVEN WONDERS',
+'p83-title': 'LITHO BUILD',
+'p84-title': 'BERRYWELL',
 
 
 
