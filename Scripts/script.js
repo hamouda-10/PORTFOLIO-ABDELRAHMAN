@@ -98,6 +98,14 @@ const portfolioData = [
     { category: 'websites', titleKey: 'p15-title', image: 'images/Websites/nazaar.png', liveUrl: 'https://nazaar.ai.studio', repoUrl: 'https://github.com/hamouda-10/nazaar' },
     { category: 'websites', titleKey: 'p16-title', image: 'images/Websites/broova.png', liveUrl: 'https://broova.ai.studio', repoUrl: 'https://github.com/hamouda-10/broova' },
 
+    { category: 'websites', titleKey: 'p79-title', image: 'images/Websites/hala-lab.png', liveUrl: 'https://hala-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/hala-lab' },
+
+
+
+
+
+
+
 
 
        
@@ -260,7 +268,9 @@ const portfolioData = [
 'cert17-title': 'Web Development Course',
             'portfolio-websites': 'Websites', 'portfolio-designs': 'Designs', 'portfolio-view-design': 'View Design',
 
-       'p1-title': 'MEETMIND AI',
+
+            // Projects Titles//////////////////////////////////////////////////////
+'p1-title': 'MEETMIND AI',
 'p2-title': 'ESTEKRAR-RE',
 'p3-title': 'ALSHIFAA CLINIC',
 'p4-title': 'ELMAWADDA',
@@ -305,26 +315,20 @@ const portfolioData = [
 'p43-title': 'FRUIT DELIVERY',
 'p44-title': 'MADINATY REAL ESTATE',
 'p45-title': 'PERSONAL PORTFOLIO',
-
-
 'p46-title': 'PRO COURSES',
 'p47-title': 'AMAZON CLONE',
 'p48-title': 'HEADPHONES STORE',
 'p49-title': 'EDUCATION PLATFORM',
 'p50-title': 'YOUTUBE CLONE',
-
-
 'p51-title': 'COINSHIFT',
 'p52-title': 'MANAGE COINS',
 'p53-title': 'FITNESS',
 'p54-title': 'MATENSASH',
 'p55-title': 'EH ELMOSHKELAH',
 'p56-title': 'WHAT SHOULD I SAY',
-
 // NEW PROJECTS
 'p57-title': 'AMANAK',
 'p58-title': 'MY LIBRARY',
-
 // OLD PROJECTS SHIFTED +2
 'p59-title': 'TIME OF PRAYER',
 'p60-title': 'ANALYSIS',
@@ -333,8 +337,6 @@ const portfolioData = [
 'p63-title': 'IZAA OF QURAN',
 'p64-title': 'WHITE BOARD',
 'p65-title': 'XO GAME',
-
-
 'p66-title': 'IMAGES SLIDES',
 'p67-title': 'PLANETS WEBSITE',
 'p68-title': 'SPIRO SPATIS DESIGN',
@@ -342,17 +344,13 @@ const portfolioData = [
 'p70-title': 'MOON ANIMATION',
 'p71-title': 'GLASSES LIST',
 'p72-title': 'SOCIAL MEDIA BUTTONS',
-
-
 'p73-title': 'COLOR LOGIN',
 'p74-title': 'RED LOGIN',
 'p75-title': 'BLACK LOGIN',
 'p76-title': 'MAN LOGIN',
 'p77-title': 'IOS LOGIN',
-
-
 'p78-title': 'ZOOM WEBSITE',
-
+'p79-title': 'HALA LAB',
 
 
 
