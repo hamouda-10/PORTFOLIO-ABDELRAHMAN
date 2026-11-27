@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const certGrid = getElem('.cert-grid');
     const portfolioGrid = getElem('.portfolio-grid');
     const portfolioFilters = getElem('.portfolio-filters');
+const projectsCountNumber = getElem('#projects-count-number');
 
     // PDF Viewer selectors
     const viewerModal = getElem('#viewer-modal');
@@ -805,9 +806,15 @@ const portfolioData = [
         });
     }
 
-    function populatePortfolio(filter = 'websites') {
-        if (!portfolioGrid) return;
-        portfolioGrid.innerHTML = '';
+function populatePortfolio(filter = 'websites') {
+    if (!portfolioGrid) return;
+
+    portfolioGrid.innerHTML = '';
+
+    // Update total projects count
+    if (projectsCountNumber) {
+        projectsCountNumber.textContent = portfolioData.length;
+    }
         const currentLang = state.language;
         const filteredData = portfolioData.filter(item => item.category === filter);
 
