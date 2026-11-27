@@ -385,7 +385,7 @@ main section.active {
 
 .section-title {
     font-family: var(--font-serif);
-    font-size: 2.8rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--gold-light);
     padding-bottom: 1rem;
@@ -715,10 +715,9 @@ html[dir="rtl"] .category-title {
     color: #000;
     border-color: var(--gold-default);
 }
-
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1.2rem;
 }
 
@@ -763,7 +762,7 @@ html[dir="rtl"] .category-title {
 
 .portfolio-overlay h4 {
     color: var(--gold-light);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     transform: translateY(20px);
     transition: transform 0.4s ease;
@@ -787,8 +786,41 @@ html[dir="rtl"] .category-title {
 .overlay-links a,
 .view-design-btn {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transition: var(--transition-fast);
+}
+
+
+
+
+
+
+/* =========================
+   PROJECT OVERLAY - MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .portfolio-overlay h4 {
+        font-size: 0.9rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .overlay-links {
+        gap: 0.35rem;
+    }
+
+    .overlay-links a,
+    .view-design-btn {
+        width: 22px;
+        height: 22px;
+        font-size: 0.9rem;
+    }
+
+    .overlay-links a i,
+    .view-design-btn i {
+        font-size: 0.9rem;
+    }
 }
 
 .view-design-btn {
