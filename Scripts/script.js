@@ -808,6 +808,9 @@ const portfolioData = [
 
 function populatePortfolio(filter = 'websites') {
     if (!portfolioGrid) return;
+    if (projectsCountNumber) {
+    projectsCountNumber.textContent = portfolioData.length;
+}
 
     portfolioGrid.innerHTML = '';
 
