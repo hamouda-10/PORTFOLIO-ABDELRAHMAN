@@ -93,6 +93,11 @@ const portfolioData = [
     { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
     { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
     { category: 'websites', titleKey: 'p12-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' },
+
+ { category: 'websites', titleKey: 'p80-title', image: 'images/Websites/aeris-sky.png', liveUrl: 'https://aeris-sky.ai.studio', repoUrl: 'https://github.com/hamouda-10/aeris-sky' },
+    { category: 'websites', titleKey: 'p81-title', image: 'images/Websites/safaari.png', liveUrl: 'https://safaari.ai.studio', repoUrl: 'https://github.com/hamouda-10/safaari' },
+    { category: 'websites', titleKey: 'p82-title', image: 'images/Websites/seven-wonders.png', liveUrl: 'https://seven-wonders.ai.studio', repoUrl: 'https://github.com/hamouda-10/Seven-Wonders' },
+
     { category: 'websites', titleKey: 'p13-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
     { category: 'websites', titleKey: 'p14-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
     { category: 'websites', titleKey: 'p15-title', image: 'images/Websites/nazaar.png', liveUrl: 'https://nazaar.ai.studio', repoUrl: 'https://github.com/hamouda-10/nazaar' },
@@ -351,6 +356,9 @@ const portfolioData = [
 'p77-title': 'IOS LOGIN',
 'p78-title': 'ZOOM WEBSITE',
 'p79-title': 'HALA LAB',
+'p80-title': 'AERIS SKY',
+'p81-title': 'SAFAARI',
+'p82-title': 'SEVEN WONDERS',
 
 
 
