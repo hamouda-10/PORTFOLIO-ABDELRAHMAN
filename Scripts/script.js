@@ -72,175 +72,156 @@ const certificationsData = [
     { id: 'cert16', titleKey: 'cert16-title', issuer: 'MINDLUSTER', logo: 'LOGO/MINDLUSTER.png', verifyUrl: './Certificates/MINDLUSTER1.pdf' },
 ];
 
+
+
+
 const portfolioData = [
 
     // Featured Projects
 
     { category: 'websites', titleKey: 'p1-title', image: 'images/Websites/metmind.png', liveUrl: 'https://project-graduation.ai.studio/', repoUrl: 'https://github.com/hamouda-10/meetmind-atlas' },
-     { category: 'websites', titleKey: 'p44-title', image: 'images/Websites/ESTEKRAR-RE.png', liveUrl: 'https://hamouda-10.github.io/ESTEKRAR-RE/index.html', repoUrl: 'https://github.com/hamouda-10/ESTEKRAR-RE' },
-       { category: 'websites', titleKey: 'p45-title', image: 'images/Websites/ALSHIFAA CLINIC.png', liveUrl: 'https://medi-book.ai.studio', repoUrl: 'https://github.com/khaledyasser2005/Doctor-Website' },
-       { category: 'websites', titleKey: 'p46-title', image: 'images/Websites/ELMAWADDA.png', liveUrl: 'https://elmawadda.ai.studio/', repoUrl: 'https://elmawadda.ai.studio/' },
-       { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
-       { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
-       { category: 'websites', titleKey: 'p68-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
- { category: 'websites', titleKey: 'p69-title', image: 'images/Websites/fish-cont.png', liveUrl: 'https://fish-cont.ai.studio', repoUrl: 'https://github.com/hamouda-10/Fish-Cont' },
- { category: 'websites', titleKey: 'p70-title', image: 'images/Websites/cordex-scroll.png', liveUrl: 'https://cordex-scroll.ai.studio', repoUrl: 'https://github.com/hamouda-10/Cordex-Scroll' },
+    { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/ESTEKRAR-RE.png', liveUrl: 'https://hamouda-10.github.io/ESTEKRAR-RE/index.html', repoUrl: 'https://github.com/hamouda-10/ESTEKRAR-RE' },
+    { category: 'websites', titleKey: 'p3-title', image: 'images/Websites/ALSHIFAA CLINIC.png', liveUrl: 'https://medi-book.ai.studio', repoUrl: 'https://github.com/khaledyasser2005/Doctor-Website' },
+    { category: 'websites', titleKey: 'p4-title', image: 'images/Websites/ELMAWADDA.png', liveUrl: 'https://elmawadda.ai.studio/', repoUrl: 'https://elmawadda.ai.studio/' },
+    { category: 'websites', titleKey: 'p5-title', image: 'images/Websites/KETABY.png', liveUrl: 'https://ketaby.ai.studio/', repoUrl: 'https://github.com/hamouda-10/KETABY' },
+    { category: 'websites', titleKey: 'p6-title', image: 'images/Websites/WHITE HONEY.png', liveUrl: 'https://white-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/WHITE-HONEY' },
+    { category: 'websites', titleKey: 'p7-title', image: 'images/Websites/Gelato Lab.png', liveUrl: 'https://gelato-lab.ai.studio', repoUrl: 'https://github.com/hamouda-10/Gelato-Lab' },
+    { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/fish-cont.png', liveUrl: 'https://fish-cont.ai.studio', repoUrl: 'https://github.com/hamouda-10/Fish-Cont' },
+    { category: 'websites', titleKey: 'p9-title', image: 'images/Websites/cordex-scroll.png', liveUrl: 'https://cordex-scroll.ai.studio', repoUrl: 'https://github.com/hamouda-10/Cordex-Scroll' },
 
 
- { category: 'websites', titleKey: 'p71-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
- { category: 'websites', titleKey: 'p72-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
- { category: 'websites', titleKey: 'p73-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' },
-{ category: 'websites', titleKey: 'p74-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
-{ category: 'websites', titleKey: 'p75-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
-{ category: 'websites', titleKey: 'p76-title', image: 'images/Websites/nazaar.png', liveUrl: 'https://nazaar.ai.studio', repoUrl: 'https://github.com/hamouda-10/nazaar' },
-{ category: 'websites', titleKey: 'p77-title', image: 'images/Websites/broova.png', liveUrl: 'https://broova.ai.studio', repoUrl: 'https://github.com/hamouda-10/broova' },
-
-
-
+    { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
+    { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
+    { category: 'websites', titleKey: 'p12-title', image: 'images/Websites/noche-viva.png', liveUrl: 'https://noche-viva.ai.studio', repoUrl: 'https://github.com/hamouda-10/noche-viva' },
+    { category: 'websites', titleKey: 'p13-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
+    { category: 'websites', titleKey: 'p14-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
+    { category: 'websites', titleKey: 'p15-title', image: 'images/Websites/nazaar.png', liveUrl: 'https://nazaar.ai.studio', repoUrl: 'https://github.com/hamouda-10/nazaar' },
+    { category: 'websites', titleKey: 'p16-title', image: 'images/Websites/broova.png', liveUrl: 'https://broova.ai.studio', repoUrl: 'https://github.com/hamouda-10/broova' },
 
 
 
        
-       { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
-       { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
-       { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
-       { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
+    { category: 'websites', titleKey: 'p17-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
+    { category: 'websites', titleKey: 'p18-title', image: 'images/Websites/harborlux.png', liveUrl: 'https://harborlux.ai.studio', repoUrl: 'https://github.com/hamouda-10/harborlux' },
+    { category: 'websites', titleKey: 'p19-title', image: 'images/Websites/Krung Travel.png', liveUrl: 'https://krung-travel.ai.studio', repoUrl: 'https://github.com/hamouda-10/krung-travel' },
+    { category: 'websites', titleKey: 'p20-title', image: 'images/Websites/ride-out.png', liveUrl: 'https://ride-out.ai.studio', repoUrl: 'https://github.com/hamouda-10/ride-out' },
        
-       { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
-       { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
-       { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
-       { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
+    { category: 'websites', titleKey: 'p21-title', image: 'images/Websites/sun-roof.png', liveUrl: 'https://sun-roof.ai.studio', repoUrl: 'https://github.com/hamouda-10/sun-roof' },
+    { category: 'websites', titleKey: 'p22-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
+    { category: 'websites', titleKey: 'p23-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
+    { category: 'websites', titleKey: 'p24-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
 
-       { category: 'websites', titleKey: 'p78-title', image: 'images/Websites/the-weather.png', liveUrl: 'https://the-weather.ai.studio', repoUrl: 'https://github.com/hamouda-10/the-weather' },
+    { category: 'websites', titleKey: 'p25-title', image: 'images/Websites/the-weather.png', liveUrl: 'https://the-weather.ai.studio', repoUrl: 'https://github.com/hamouda-10/the-weather' },
        
-       { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
-       { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/CAMERA PRO.png', liveUrl: 'https://camera-proo.ai.studio', repoUrl: 'https://github.com/hamouda-10/CAMERA-PRO' },
-        { category: 'websites', titleKey: 'p67-title', image: 'images/Websites/ANIMALS ZOO.png', liveUrl: 'https://animals-zoo.ai.studio', repoUrl: 'https://github.com/hamouda-10/ANIMALS-ZOO' },
+    { category: 'websites', titleKey: 'p26-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
+    { category: 'websites', titleKey: 'p27-title', image: 'images/Websites/CAMERA PRO.png', liveUrl: 'https://camera-proo.ai.studio', repoUrl: 'https://github.com/hamouda-10/CAMERA-PRO' },
+    { category: 'websites', titleKey: 'p28-title', image: 'images/Websites/ANIMALS ZOO.png', liveUrl: 'https://animals-zoo.ai.studio', repoUrl: 'https://github.com/hamouda-10/ANIMALS-ZOO' },
 
-                   { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
-                   { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
-                   { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://airplane-0.ai.studio', repoUrl: 'https://github.com/hamouda-10/AIRPLANE' },
-              
+    { category: 'websites', titleKey: 'p29-title', image: 'images/Websites/MONS.png', liveUrl: 'https://hamouda-10.github.io/MONS/', repoUrl: 'https://github.com/hamouda-10/MONS' },
+    { category: 'websites', titleKey: 'p30-title', image: 'images/Websites/KYNE-AERO.png', liveUrl: 'https://hamouda-10.github.io/KYNE-AERO/', repoUrl: 'https://github.com/hamouda-10/KYNE-AERO' },
+    { category: 'websites', titleKey: 'p31-title', image: 'images/Websites/VANTE.png', liveUrl: 'https://airplane-0.ai.studio', repoUrl: 'https://github.com/hamouda-10/AIRPLANE' },
+    { category: 'websites', titleKey: 'p32-title', image: 'images/Websites/Kolibrie.png', liveUrl: 'https://kolibrie.ai.studio', repoUrl: 'https://github.com/hamouda-10/Kolibrie-' },
+    { category: 'websites', titleKey: 'p33-title', image: 'images/Websites/VEYRA.png', liveUrl: 'https://veyraaa.ai.studio', repoUrl: 'https://github.com/hamouda-10/VEYRA' },
+    { category: 'websites', titleKey: 'p34-title', image: 'images/Websites/Aegis Augment.png', liveUrl: 'https://aegis-augment.ai.studio', repoUrl: 'https://github.com/hamouda-10/Aegis-Augment-' },
 
+    { category: 'websites', titleKey: 'p35-title', image: 'images/Websites/STRIDE 3D.png', liveUrl: 'https://stride-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/STRIDE-3D' },
+    { category: 'websites', titleKey: 'p36-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
 
+    { category: 'websites', titleKey: 'p37-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
 
+    { category: 'websites', titleKey: 'p38-title', image: 'images/Websites/CAMERA.png', liveUrl: 'https://hamouda-10.github.io/camera/', repoUrl: 'https://github.com/hamouda-10/camera' },
 
+    { category: 'websites', titleKey: 'p39-title', image: 'images/Websites/PEXELZO.png', liveUrl: 'https://pixelzo.ai.studio/', repoUrl: 'https://github.com/hamouda-10/PEXELZO' },
 
+    { category: 'websites', titleKey: 'p40-title', image: 'images/Websites/CV.png', liveUrl: 'https://hamouda-10.github.io/CV-CHECKER/', repoUrl: 'https://github.com/hamouda-10/CV-CHECKER' },
 
+    { category: 'websites', titleKey: 'p41-title', image: 'images/Websites/GYMFLOW.png', liveUrl: 'https://asset-manager--sallahhoda662.replit.app/', repoUrl: 'https://github.com/hamouda-10/GymFlow-Pro' },
 
+    { category: 'websites', titleKey: 'p42-title', image: 'images/Websites/VIRAL CONTENT.png', liveUrl: 'https://hamouda-10.github.io/Estate-Lens/', repoUrl: 'https://github.com/hamouda-10/Estate-Lens' },
 
-   { category: 'websites', titleKey: 'p55-title', image: 'images/Websites/Kolibrie.png', liveUrl: 'https://kolibrie.ai.studio', repoUrl: 'https://github.com/hamouda-10/Kolibrie-' },
-      { category: 'websites', titleKey: 'p56-title', image: 'images/Websites/VEYRA.png', liveUrl: 'https://veyraaa.ai.studio', repoUrl: 'https://github.com/hamouda-10/VEYRA' },
-         { category: 'websites', titleKey: 'p57-title', image: 'images/Websites/Aegis Augment.png', liveUrl: 'https://aegis-augment.ai.studio', repoUrl: 'https://github.com/hamouda-10/Aegis-Augment-' },
+    { category: 'websites', titleKey: 'p43-title', image: 'images/Websites/Fruit.png', liveUrl: 'https://hamouda-10.github.io/TRANING-PROJECT/', repoUrl: 'https://github.com/hamouda-10/TRANING-PROJECT' },
 
+    { category: 'websites', titleKey: 'p44-title', image: 'images/Websites/MADINATY.png', liveUrl: 'https://hamouda-10.github.io/1/', repoUrl: 'https://github.com/hamouda-10/1' },
 
-
-
-
-
-                   { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/STRIDE 3D.png', liveUrl: 'https://stride-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/STRIDE-3D' },
-                     { category: 'websites', titleKey: 'p50-title', image: 'images/Websites/JAC 3D.png', liveUrl: 'https://jack-3d.ai.studio', repoUrl: 'https://github.com/hamouda-10/JAC-3D' },
-
-    { category: 'websites', titleKey: 'p2-title', image: 'images/Websites/THE SEA.png', liveUrl: 'https://el-mokna.ai.studio/', repoUrl: 'https://github.com/hamouda-10/THE-SEA' },
-
-    { category: 'websites', titleKey: 'p3-title', image: 'images/Websites/CAMERA.png', liveUrl: 'https://hamouda-10.github.io/camera/', repoUrl: 'https://github.com/hamouda-10/camera' },
-
-    { category: 'websites', titleKey: 'p4-title', image: 'images/Websites/PEXELZO.png', liveUrl: 'https://pixelzo.ai.studio/', repoUrl: 'https://github.com/hamouda-10/PEXELZO' },
-
-    { category: 'websites', titleKey: 'p5-title', image: 'images/Websites/CV.png', liveUrl: 'https://hamouda-10.github.io/CV-CHECKER/', repoUrl: 'https://github.com/hamouda-10/CV-CHECKER' },
-
-    { category: 'websites', titleKey: 'p6-title', image: 'images/Websites/GYMFLOW.png', liveUrl: 'https://asset-manager--sallahhoda662.replit.app/', repoUrl: 'https://github.com/hamouda-10/GymFlow-Pro' },
-
-    { category: 'websites', titleKey: 'p7-title', image: 'images/Websites/VIRAL CONTENT.png', liveUrl: 'https://hamouda-10.github.io/Estate-Lens/', repoUrl: 'https://github.com/hamouda-10/Estate-Lens' },
-
-    { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/Fruit.png', liveUrl: 'https://hamouda-10.github.io/TRANING-PROJECT/', repoUrl: 'https://github.com/hamouda-10/TRANING-PROJECT' },
-
-    { category: 'websites', titleKey: 'p9-title', image: 'images/Websites/MADINATY.png', liveUrl: 'https://hamouda-10.github.io/1/', repoUrl: 'https://github.com/hamouda-10/1' },
-
-    { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/PORTFOLIO.png', liveUrl: 'https://hamouda-10.github.io/ORANGE-PORTFOLIO/', repoUrl: 'https://github.com/hamouda-10/ORANGE-PORTFOLIO-' },
-
+    { category: 'websites', titleKey: 'p45-title', image: 'images/Websites/PORTFOLIO.png', liveUrl: 'https://hamouda-10.github.io/ORANGE-PORTFOLIO/', repoUrl: 'https://github.com/hamouda-10/ORANGE-PORTFOLIO-' },
 
     // Professional Websites
 
-    { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/PRO COURSES.png', liveUrl: 'https://hamouda-10.github.io/PRO-COURSES/', repoUrl: 'https://github.com/hamouda-10/PRO-COURSES' },
+    { category: 'websites', titleKey: 'p46-title', image: 'images/Websites/PRO COURSES.png', liveUrl: 'https://hamouda-10.github.io/PRO-COURSES/', repoUrl: 'https://github.com/hamouda-10/PRO-COURSES' },
 
-    { category: 'websites', titleKey: 'p12-title', image: 'images/Websites/AMAZONE CLONE.png', liveUrl: 'https://hamouda-10.github.io/STORE-AMAZON-/', repoUrl: 'https://github.com/hamouda-10/STORE-AMAZON-' },
+    { category: 'websites', titleKey: 'p47-title', image: 'images/Websites/AMAZONE CLONE.png', liveUrl: 'https://hamouda-10.github.io/STORE-AMAZON-/', repoUrl: 'https://github.com/hamouda-10/STORE-AMAZON-' },
 
-    { category: 'websites', titleKey: 'p13-title', image: 'images/Websites/HEADPHONE.png', liveUrl: 'https://hamouda-10.github.io/HEADPHONES/', repoUrl: 'https://github.com/hamouda-10/HEADPHONES' },
+    { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/HEADPHONE.png', liveUrl: 'https://hamouda-10.github.io/HEADPHONES/', repoUrl: 'https://github.com/hamouda-10/HEADPHONES' },
 
-    { category: 'websites', titleKey: 'p14-title', image: 'images/Websites/EDUCATION PLATFORM.png', liveUrl: 'https://hamouda-10.github.io/edu-platform-elshoura/#', repoUrl: 'https://github.com/hamouda-10/edu-platform-elshoura' },
+    { category: 'websites', titleKey: 'p49-title', image: 'images/Websites/EDUCATION PLATFORM.png', liveUrl: 'https://hamouda-10.github.io/edu-platform-elshoura/#', repoUrl: 'https://github.com/hamouda-10/edu-platform-elshoura' },
 
-    { category: 'websites', titleKey: 'p15-title', image: 'images/Websites/YOUTUBE CLONE.png', liveUrl: 'https://hamouda-10.github.io/YOUTUBE-CLONE/', repoUrl: 'https://github.com/hamouda-10/YOUTUBE-CLONE' },
-
+    { category: 'websites', titleKey: 'p50-title', image: 'images/Websites/YOUTUBE CLONE.png', liveUrl: 'https://hamouda-10.github.io/YOUTUBE-CLONE/', repoUrl: 'https://github.com/hamouda-10/YOUTUBE-CLONE' },
 
     // Interactive Projects
 
-    { category: 'websites', titleKey: 'p16-title', image: 'images/Websites/COINSHIFT.png', liveUrl: 'https://hamouda-10.github.io/COINSHIFT/', repoUrl: 'https://github.com/hamouda-10/COINSHIFT' },
+    { category: 'websites', titleKey: 'p51-title', image: 'images/Websites/COINSHIFT.png', liveUrl: 'https://hamouda-10.github.io/COINSHIFT/', repoUrl: 'https://github.com/hamouda-10/COINSHIFT' },
 
-    { category: 'websites', titleKey: 'p17-title', image: 'images/Websites/MANAGE COINS.png', liveUrl: 'https://hamouda-10.github.io/MANAGE-COINS/', repoUrl: 'https://github.com/hamouda-10/MANAGE-COINS' },
+    { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/MANAGE COINS.png', liveUrl: 'https://hamouda-10.github.io/MANAGE-COINS/', repoUrl: 'https://github.com/hamouda-10/MANAGE-COINS' },
 
-    { category: 'websites', titleKey: 'p18-title', image: 'images/Websites/FITNESS.png', liveUrl: 'https://hamouda-10.github.io/FITNESS/', repoUrl: 'https://github.com/hamouda-10/FITNESS' },
+    { category: 'websites', titleKey: 'p53-title', image: 'images/Websites/FITNESS.png', liveUrl: 'https://hamouda-10.github.io/FITNESS/', repoUrl: 'https://github.com/hamouda-10/FITNESS' },
 
-    { category: 'websites', titleKey: 'p19-title', image: 'images/Websites/MATENSASH.png', liveUrl: 'https://hamouda-10.github.io/MATENSASH//', repoUrl: 'https://github.com/hamouda-10/MATENSASH' },
+    { category: 'websites', titleKey: 'p54-title', image: 'images/Websites/MATENSASH.png', liveUrl: 'https://hamouda-10.github.io/MATENSASH//', repoUrl: 'https://github.com/hamouda-10/MATENSASH' },
 
-    { category: 'websites', titleKey: 'p20-title', image: 'images/Websites/EH ELMOSHKELAH.png', liveUrl: 'https://what-s-wrong.ai.studio/', repoUrl: 'https://github.com/hamouda-10/EH-ELMOSHKELAH' },
+    { category: 'websites', titleKey: 'p55-title', image: 'images/Websites/EH ELMOSHKELAH.png', liveUrl: 'https://what-s-wrong.ai.studio/', repoUrl: 'https://github.com/hamouda-10/EH-ELMOSHKELAH' },
 
-    { category: 'websites', titleKey: 'p21-title', image: 'images/Websites/what-should-i-say.png', liveUrl: 'https://what-should-i-say.ai.studio/', repoUrl: 'https://github.com/hamouda-10/what-should-i-say' },
+    { category: 'websites', titleKey: 'p56-title', image: 'images/Websites/what-should-i-say.png', liveUrl: 'https://what-should-i-say.ai.studio/', repoUrl: 'https://github.com/hamouda-10/what-should-i-say' },
 
     // NEW PROJECTS
 
-    { category: 'websites', titleKey: 'p22-title', image: 'images/Websites/AMANAK.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/AMANAK' },
+    { category: 'websites', titleKey: 'p57-title', image: 'images/Websites/AMANAK.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/AMANAK' },
 
-    { category: 'websites', titleKey: 'p23-title', image: 'images/Websites/MY LIBRARY.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/My-Library' },
+    { category: 'websites', titleKey: 'p58-title', image: 'images/Websites/MY LIBRARY.png', liveUrl: 'https://my-library0.ai.studio/', repoUrl: 'https://github.com/hamouda-10/My-Library' },
 
-    { category: 'websites', titleKey: 'p24-title', image: 'images/Websites/TIME PRAYER.png', liveUrl: 'https://hamouda-10.github.io/TIME-OF-PRAYER/', repoUrl: 'https://github.com/hamouda-10/TIME-OF-PRAYER' },
+    { category: 'websites', titleKey: 'p59-title', image: 'images/Websites/TIME PRAYER.png', liveUrl: 'https://hamouda-10.github.io/TIME-OF-PRAYER/', repoUrl: 'https://github.com/hamouda-10/TIME-OF-PRAYER' },
 
-    { category: 'websites', titleKey: 'p25-title', image: 'images/Websites/ANALYSIS.png', liveUrl: 'https://hamouda-10.github.io/ANALYSIS/', repoUrl: 'https://github.com/hamouda-10/ANALYSIS' },
+    { category: 'websites', titleKey: 'p60-title', image: 'images/Websites/ANALYSIS.png', liveUrl: 'https://hamouda-10.github.io/ANALYSIS/', repoUrl: 'https://github.com/hamouda-10/ANALYSIS' },
 
-    { category: 'websites', titleKey: 'p26-title', image: 'images/Websites/GUESS FOOD.png', liveUrl: 'https://hamouda-10.github.io/GUESS-FOOD/', repoUrl: 'https://github.com/hamouda-10/GUESS-FOOD' },
+    { category: 'websites', titleKey: 'p61-title', image: 'images/Websites/GUESS FOOD.png', liveUrl: 'https://hamouda-10.github.io/GUESS-FOOD/', repoUrl: 'https://github.com/hamouda-10/GUESS-FOOD' },
 
-    { category: 'websites', titleKey: 'p27-title', image: 'images/Websites/TAGWEED.png', liveUrl: 'https://hamouda-10.github.io/TAGWEED/', repoUrl: 'https://github.com/hamouda-10/TAGWEED' },
+    { category: 'websites', titleKey: 'p62-title', image: 'images/Websites/TAGWEED.png', liveUrl: 'https://hamouda-10.github.io/TAGWEED/', repoUrl: 'https://github.com/hamouda-10/TAGWEED' },
 
-    { category: 'websites', titleKey: 'p28-title', image: 'images/Websites/IZAA.png', liveUrl: 'https://hamouda-10.github.io/IZAA/', repoUrl: 'https://github.com/hamouda-10/IZAA' },
+    { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/IZAA.png', liveUrl: 'https://hamouda-10.github.io/IZAA/', repoUrl: 'https://github.com/hamouda-10/IZAA' },
 
-    { category: 'websites', titleKey: 'p29-title', image: 'images/Websites/WHITE BOARD.png', liveUrl: 'https://hamouda-10.github.io/White-Board/', repoUrl: 'https://github.com/hamouda-10/White-Board' },
+    { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/WHITE BOARD.png', liveUrl: 'https://hamouda-10.github.io/White-Board/', repoUrl: 'https://github.com/hamouda-10/White-Board' },
 
-    { category: 'websites', titleKey: 'p30-title', image: 'images/Websites/XO GAME.png', liveUrl: 'https://hamouda-10.github.io/PRO-XO-GAME/', repoUrl: 'https://github.com/hamouda-10/PRO-XO-GAME' },
-
+    { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/XO GAME.png', liveUrl: 'https://hamouda-10.github.io/PRO-XO-GAME/', repoUrl: 'https://github.com/hamouda-10/PRO-XO-GAME' },
 
     // UI / Frontend
 
-    { category: 'websites', titleKey: 'p31-title', image: 'images/Websites/IMAGES.png', liveUrl: 'https://hamouda-10.github.io/IMAGES/', repoUrl: 'https://github.com/hamouda-10/IMAGES' },
+    { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/IMAGES.png', liveUrl: 'https://hamouda-10.github.io/IMAGES/', repoUrl: 'https://github.com/hamouda-10/IMAGES' },
 
-    { category: 'websites', titleKey: 'p32-title', image: 'images/Websites/PLANETS.png', liveUrl: 'https://hamouda-10.github.io/PLANETS/', repoUrl: 'https://github.com/hamouda-10/PLANETS' },
+    { category: 'websites', titleKey: 'p67-title', image: 'images/Websites/PLANETS.png', liveUrl: 'https://hamouda-10.github.io/PLANETS/', repoUrl: 'https://github.com/hamouda-10/PLANETS' },
 
-    { category: 'websites', titleKey: 'p33-title', image: 'images/Websites/SPIRO.png', liveUrl: 'https://hamouda-10.github.io/Spiro-Spatnis-Card/', repoUrl: 'https://github.com/hamouda-10/Spiro-Spatnis-Card' },
+    { category: 'websites', titleKey: 'p68-title', image: 'images/Websites/SPIRO.png', liveUrl: 'https://hamouda-10.github.io/Spiro-Spatnis-Card/', repoUrl: 'https://github.com/hamouda-10/Spiro-Spatnis-Card' },
 
-    { category: 'websites', titleKey: 'p34-title', image: 'images/Websites/CANS.png', liveUrl: 'https://hamouda-10.github.io/CANS/', repoUrl: 'https://github.com/hamouda-10/CANS' },
+    { category: 'websites', titleKey: 'p69-title', image: 'images/Websites/CANS.png', liveUrl: 'https://hamouda-10.github.io/CANS/', repoUrl: 'https://github.com/hamouda-10/CANS' },
 
-    { category: 'websites', titleKey: 'p35-title', image: 'images/Websites/MOON.png', liveUrl: 'https://hamouda-10.github.io/MOON/', repoUrl: 'https://github.com/hamouda-10/MOON' },
+    { category: 'websites', titleKey: 'p70-title', image: 'images/Websites/MOON.png', liveUrl: 'https://hamouda-10.github.io/MOON/', repoUrl: 'https://github.com/hamouda-10/MOON' },
 
-    { category: 'websites', titleKey: 'p36-title', image: 'images/Websites/GLASSES LIST.png', liveUrl: 'https://hamouda-10.github.io/GLASSES-MENU/', repoUrl: 'https://github.com/hamouda-10/GLASSES-MENU' },
+    { category: 'websites', titleKey: 'p71-title', image: 'images/Websites/GLASSES LIST.png', liveUrl: 'https://hamouda-10.github.io/GLASSES-MENU/', repoUrl: 'https://github.com/hamouda-10/GLASSES-MENU' },
 
-    { category: 'websites', titleKey: 'p37-title', image: 'images/Websites/SOCIAL BUTTONS.png', liveUrl: 'https://hamouda-10.github.io/SOCIAL-ICON-BUTTONS/', repoUrl: 'https://github.com/hamouda-10/SOCIAL-ICON-BUTTONS' },
-
+    { category: 'websites', titleKey: 'p72-title', image: 'images/Websites/SOCIAL BUTTONS.png', liveUrl: 'https://hamouda-10.github.io/SOCIAL-ICON-BUTTONS/', repoUrl: 'https://github.com/hamouda-10/SOCIAL-ICON-BUTTONS' },
 
     // Login Designs
 
-    { category: 'websites', titleKey: 'p38-title', image: 'images/Websites/COLOR LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLUR-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLUR-LOGIN/settings/pages' },
+    { category: 'websites', titleKey: 'p73-title', image: 'images/Websites/COLOR LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLUR-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLUR-LOGIN/settings/pages' },
 
-    { category: 'websites', titleKey: 'p39-title', image: 'images/Websites/RED LOGIN.png', liveUrl: 'https://hamouda-10.github.io/RED-LOGIN/', repoUrl: 'https://github.com/hamouda-10/RED-LOGIN' },
+    { category: 'websites', titleKey: 'p74-title', image: 'images/Websites/RED LOGIN.png', liveUrl: 'https://hamouda-10.github.io/RED-LOGIN/', repoUrl: 'https://github.com/hamouda-10/RED-LOGIN' },
 
-    { category: 'websites', titleKey: 'p40-title', image: 'images/Websites/BLACK LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLACK-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLACK-LOGIN' },
+    { category: 'websites', titleKey: 'p75-title', image: 'images/Websites/BLACK LOGIN.png', liveUrl: 'https://hamouda-10.github.io/BLACK-LOGIN/', repoUrl: 'https://github.com/hamouda-10/BLACK-LOGIN' },
 
-    { category: 'websites', titleKey: 'p41-title', image: 'images/Websites/MAN LOGIN.png', liveUrl: 'https://hamouda-10.github.io/MAN-LOGIN/', repoUrl: 'https://github.com/hamouda-10/MAN-LOGIN' },
+    { category: 'websites', titleKey: 'p76-title', image: 'images/Websites/MAN LOGIN.png', liveUrl: 'https://hamouda-10.github.io/MAN-LOGIN/', repoUrl: 'https://github.com/hamouda-10/MAN-LOGIN' },
 
-    { category: 'websites', titleKey: 'p42-title', image: 'images/Websites/IOS LOGIN.png', liveUrl: 'https://hamouda-10.github.io/LOGIN-IPHONE/', repoUrl: 'https://github.com/hamouda-10/LOGIN-IPHONE' },
-
-
+    { category: 'websites', titleKey: 'p77-title', image: 'images/Websites/IOS LOGIN.png', liveUrl: 'https://hamouda-10.github.io/LOGIN-IPHONE/', repoUrl: 'https://github.com/hamouda-10/LOGIN-IPHONE' },
+    
     // Small Projects
 
-    { category: 'websites', titleKey: 'p43-title', image: 'images/Websites/ZOOM.png', liveUrl: 'https://hamouda-10.github.io/ZOOM-WEBSITE/', repoUrl: 'https://github.com/hamouda-10/ZOOM-WEBSITE' }
+    { category: 'websites', titleKey: 'p78-title', image: 'images/Websites/ZOOM.png', liveUrl: 'https://hamouda-10.github.io/ZOOM-WEBSITE/', repoUrl: 'https://github.com/hamouda-10/ZOOM-WEBSITE' }
 
 ];
 
