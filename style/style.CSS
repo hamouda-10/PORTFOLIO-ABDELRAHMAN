@@ -641,10 +641,55 @@ html[dir="rtl"] .category-title {
 
 .portfolio-filters {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
+}
+
+
+.projects-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 8px 12px 8px 18px;
+
+    border: 1px solid rgba(218, 165, 32, 0.45);
+    border-radius: 50px;
+
+    background: rgba(218, 165, 32, 0.06);
+
+    color: var(--gold-default);
+
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+.projects-count-label {
+    color: var(--gold-default);
+}
+
+#projects-count-number {
+    min-width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--gold-default);
+    color: #000;
+
+    font-size: 0.9rem;
+    font-weight: 800;
 }
 
 .filter-btn {
@@ -673,8 +718,8 @@ html[dir="rtl"] .category-title {
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.2rem;
 }
 
 .portfolio-item {
@@ -1539,22 +1584,6 @@ html[dir="rtl"] #contact-form::before {
 
 
 
-.projects-count {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: fit-content;
-    margin: 0 auto 25px;
-    padding: 10px 18px;
-    border: 1px solid rgba(218, 165, 32, 0.45);
-    border-radius: 50px;
-    background: rgba(218, 165, 32, 0.08);
-    backdrop-filter: blur(10px);
-    color: #daa520;
-    font-size: 14px;
-    font-weight: 600;
-}
 
 .projects-count-label {
     opacity: 0.9;
@@ -1571,4 +1600,37 @@ html[dir="rtl"] #contact-form::before {
     color: #111;
     font-size: 14px;
     font-weight: 800;
+}
+
+
+
+@media (max-width: 767px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.6rem;
+    }
+
+    .portfolio-item {
+        border-radius: 6px;
+    }
+
+    .portfolio-filters {
+        gap: 0.7rem;
+    }
+
+    .projects-count {
+        padding: 6px 10px 6px 14px;
+        font-size: 0.8rem;
+    }
+
+    #projects-count-number {
+        min-width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+    }
+
+    .filter-btn {
+        padding: 0.45rem 1.1rem;
+        font-size: 0.9rem;
+    }
 }
