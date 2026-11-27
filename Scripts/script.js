@@ -110,6 +110,8 @@ const portfolioData = [
        { category: 'websites', titleKey: 'p63-title', image: 'images/Websites/Saltwake.png', liveUrl: 'https://saltwake.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
        { category: 'websites', titleKey: 'p64-title', image: 'images/Websites/AIRPLANE.png', liveUrl: 'https://AIRPLANE.ai.studio', repoUrl: 'https://github.com/hamouda-10/saltwake' },
        { category: 'websites', titleKey: 'p48-title', image: 'images/Websites/POKE PAL.png', liveUrl: 'https://poke-pal.ai.studio/', repoUrl: 'https://github.com/hamouda-10/POKE-PAL' },
+
+       { category: 'websites', titleKey: 'p78-title', image: 'images/Websites/the-weather.png', liveUrl: 'https://the-weather.ai.studio', repoUrl: 'https://github.com/hamouda-10/the-weather' },
        
        { category: 'websites', titleKey: 'p65-title', image: 'images/Websites/hiven-honey.png', liveUrl: 'https://hiven-honey.ai.studio', repoUrl: 'https://github.com/hamouda-10/hiven-honey' },
        { category: 'websites', titleKey: 'p66-title', image: 'images/Websites/CAMERA PRO.png', liveUrl: 'https://camera-proo.ai.studio', repoUrl: 'https://github.com/hamouda-10/CAMERA-PRO' },
@@ -367,8 +369,7 @@ const portfolioData = [
 'p75-title': 'Dresses',
 'p76-title': 'Nazaar',
 'p77-title': 'Broova',
-
-
+'p78-title': 'The Weather',
 
 
 
