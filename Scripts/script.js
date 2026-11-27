@@ -93,6 +93,12 @@ const portfolioData = [
 { category: 'websites', titleKey: 'p74-title', image: 'images/Websites/Offcut.png', liveUrl: 'https://offcut-10.ai.studio', repoUrl: 'https://github.com/hamouda-10/Offcut' },
 { category: 'websites', titleKey: 'p75-title', image: 'images/Websites/dresses.png', liveUrl: 'https://dresses.ai.studio', repoUrl: 'https://github.com/hamouda-10/dresses' },
 { category: 'websites', titleKey: 'p76-title', image: 'images/Websites/nazaar.png', liveUrl: 'https://nazaar.ai.studio', repoUrl: 'https://github.com/hamouda-10/nazaar' },
+{ category: 'websites', titleKey: 'p77-title', image: 'images/Websites/broova.png', liveUrl: 'https://broova.ai.studio', repoUrl: 'https://github.com/hamouda-10/broova' },
+
+
+
+
+
 
        
        { category: 'websites', titleKey: 'p52-title', image: 'images/Websites/BLENDY.png', liveUrl: 'https://blendy.ai.studio', repoUrl: 'https://github.com/hamouda-10/BLENDY' },
@@ -360,6 +366,16 @@ const portfolioData = [
 'p74-title': 'Offcut',
 'p75-title': 'Dresses',
 'p76-title': 'Nazaar',
+'p77-title': 'Broova',
+
+
+
+
+
+
+
+
+
 
             'exp-eisas-date': 'Mar 2024 - Present', 'exp-eisas-title': 'Frontend Developer', 'exp-eisas-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React)',
             'exp-gmt-date': 'Jan 2025 - Present', 'exp-gmt-title': 'Web Developer', 'exp-gmt-company': 'Frontend Development (HTML, CSS, JavaScript, Bootstrap, React) | Backend Development (PHP – Laravel, Node.js, MySQL, PostgreSQL) | UI & UX Design (Canva, Adobe Photoshop, Figma) | Database Management & Optimization | Cybersecurity Awareness & Ethical Hacking Basics | Problem-Solving & Algorithmic Thinking',
