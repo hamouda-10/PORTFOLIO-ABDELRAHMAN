@@ -90,6 +90,7 @@ const portfolioData = [
     { category: 'websites', titleKey: 'p8-title', image: 'images/Websites/fish-cont.png', liveUrl: 'https://fish-cont.ai.studio', repoUrl: 'https://github.com/hamouda-10/Fish-Cont' },
     { category: 'websites', titleKey: 'p9-title', image: 'images/Websites/cordex-scroll.png', liveUrl: 'https://cordex-scroll.ai.studio', repoUrl: 'https://github.com/hamouda-10/Cordex-Scroll' },
 { category: 'websites', titleKey: 'p85-title', image: 'images/Websites/haldenn.png', liveUrl: 'https://haldenn.ai.studio', repoUrl: 'https://github.com/hamouda-10/haldenn' },
+{ category: 'websites', titleKey: 'p86-title', image: 'images/Websites/fable-five.png', liveUrl: 'https://fable-five.ai.studio', repoUrl: 'https://github.com/hamouda-10/fable-five' },
 
     { category: 'websites', titleKey: 'p10-title', image: 'images/Websites/bokhor.png', liveUrl: 'https://bokhor.ai.studio', repoUrl: 'https://github.com/hamouda-10/bokhor' },
     { category: 'websites', titleKey: 'p11-title', image: 'images/Websites/Frostgate Russia.png', liveUrl: 'https://frostgate-russia.ai.studio', repoUrl: 'https://github.com/hamouda-10/Frostgate-Russia' },
@@ -365,6 +366,7 @@ const portfolioData = [
 'p83-title': 'LITHO BUILD',
 'p84-title': 'BERRYWELL',
 'p85-title': 'HALDENN',
+'p86-title': 'fable-five',
 
 
 
